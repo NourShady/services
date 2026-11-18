@@ -1,0 +1,2864 @@
+[
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Transit time measures the total travel time of data from source to destination, whereas the variation between delays is jitter.",
+        "text": "Transit Time"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Throughput measures the total volume of data delivered per unit of time, not the variation in individual packet delays.",
+        "text": "Throughput"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Accuracy refers to delivering data without errors or corruption, not the variation in packet arrival timing.",
+        "text": "Accuracy"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Jitter is defined specifically as the variation in packet arrival times over a network, measured in milliseconds.",
+        "text": "Jitter"
+      }
+    ],
+    "hint": "Consider the term used to describe uneven or varying delays between consecutive data units.",
+    "question": "A network administrator observes three consecutive packets arriving with delays of $15\\text{ ms}$, $25\\text{ ms}$, and $20\\text{ ms}$ respectively. Which metric of data communication system effectiveness is directly reflected by this variability?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Attenuation measures the loss of signal energy as it propagates through a physical medium, rather than delay variation.",
+        "text": "Attenuation"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Throughput measures the total volume of data successfully delivered over a medium per unit of time, not the variation in packet arrival timing.",
+        "text": "Throughput"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Jitter is defined specifically as the fluctuation or variation in arrival time delay between consecutive data packets.",
+        "text": "Jitter"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Distortion refers to changes in the wave shape or phase of a signal rather than differences in packet delivery timing.",
+        "text": "Distortion"
+      }
+    ],
+    "hint": "Consider the term used to describe uneven gaps or variations in latency between consecutive data packets.",
+    "question": "A network monitoring tool records packet arrival delays for three consecutive packets as $20\\text{ ms}$, $30\\text{ ms}$, and $25\\text{ ms}$. What quality of service metric does the variation ($\\pm 5\\text{ ms}$) in these arrival times represent?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Attenuation measures the loss of signal energy as it propagates through a transmission medium.",
+        "text": "Attenuation"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Timeliness refers to delivering data within a specific time window, not the metric measuring variance between arrival times.",
+        "text": "Timeliness"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Accuracy measures whether data is delivered without error or alteration.",
+        "text": "Accuracy"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Jitter is defined explicitly as the variation or fluctuation in the arrival time of consecutive data packets.",
+        "text": "Jitter"
+      }
+    ],
+    "hint": "Think about uneven delays experienced during real-time video or audio streaming.",
+    "question": "In a data communications system, which performance metric refers specifically to the variation in packet arrival times?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This value represents the simple mean average of arrival times $(20 + 30 + 25) / 3$, not the variation in arrival delay.",
+        "text": "$25\\text{ ms}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Zero jitter only occurs when all packets arrive with identical, constant transmission delay.",
+        "text": "$0\\text{ ms}$"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Jitter measures the variation in packet arrival delay. The differences between consecutive packet arrival times ($30 - 20 = 10\\text{ ms}$, $30 - 25 = 5\\text{ ms}$) result in a delay variation of $\\pm 5\\text{ ms}$ around the average shift.",
+        "text": "$\\pm 5\\text{ ms}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This is the cumulative sum of all arrival times, not the delay variation between arrival times.",
+        "text": "$75\\text{ ms}$"
+      }
+    ],
+    "hint": "Jitter refers to the variation in packet delay rather than total or average transit time.",
+    "question": "In a network measuring jitter, three consecutive data packets arrive with delays of $20\\text{ ms}$, $30\\text{ ms}$, and $25\\text{ ms}$. What is the jitter observed among these packet delays?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This value represents the average delay of the packets rather than the variation between arrival delays.",
+        "text": "$20\\text{ ms}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This value represents the maximum gap between the fastest and slowest arrival time rather than the variation relative to the mean delay.",
+        "text": "$\\pm 10\\text{ ms}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This option erroneously sums all individual arrival times instead of calculating delay variation.",
+        "text": "$60\\text{ ms}$"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Jitter measures the variation in packet arrival delays around the average arrival delay, which fluctuates by 5 ms across these packets.",
+        "text": "$\\pm 5\\text{ ms}$"
+      }
+    ],
+    "hint": "Focus on how jitter measures the fluctuation in packet arrival delay relative to the baseline average.",
+    "question": "A network monitoring system records three consecutive packet arrival delays: $15\\text{ ms}$, $25\\text{ ms}$, and $20\\text{ ms}$. What is the jitter associated with this packet transmission sequence?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "Half-duplex communication allows bidirectional flow, but devices must alternate because transmission cannot occur simultaneously in both directions.",
+        "text": "Half-duplex"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Multipoint refers to line configuration sharing among multiple devices, not the directional timing of data flow between stations.",
+        "text": "Multipoint"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Full-duplex allows both stations to transmit and receive concurrently at the exact same time.",
+        "text": "Full-duplex"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Simplex communication is strictly unidirectional, where one station only sends and the other only receives.",
+        "text": "Simplex"
+      }
+    ],
+    "hint": "Think of how a walkie-talkie operates compared to a telephone.",
+    "question": "A communication link allows two connected stations to both send and receive data, but only one station can transmit at any given time. Which transmission mode is in use?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Half-duplex allows bidirectional communication, but only one direction at a time (e.g., walkie-talkies).",
+        "text": "Half duplex"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "In full-duplex mode, both connected devices can transmit and receive data concurrently (e.g., modern telephony).",
+        "text": "Full duplex"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Simplex mode is strictly unidirectional, where one device only transmits and the other only receives (e.g., keyboard to CPU).",
+        "text": "Simplex"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Multipoint refers to line configuration involving multiple devices sharing a single link, not the directional timing capability.",
+        "text": "Multipoint"
+      }
+    ],
+    "hint": "Think of a telephone call where both parties can speak and listen at the same time.",
+    "question": "Which data transmission mode permits signals to flow in both directions simultaneously across the communication medium?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Fiber-optic cable uses glass or plastic strands to direct light signals, serving as a guided medium.",
+        "text": "Fiber-optic cable"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Coaxial cable is a physical solid conductor that guides electromagnetic signals along a enclosed path.",
+        "text": "Coaxial cable"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Twisted pair consists of insulated copper wires bound together, which physically channels electrical signals as a guided medium.",
+        "text": "Twisted pair cable"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Radio waves propagate through air or vacuum without physical solid boundaries, making them an unguided (wireless) medium.",
+        "text": "Radio waves"
+      }
+    ],
+    "hint": "Think about the distinction between bounded physical cabling and open electromagnetic wave propagation.",
+    "question": "Which of the following media is classified as an unguided transmission medium?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Optical fiber guides light waves through glass or plastic strands, making it a guided medium.",
+        "text": "Optical fiber"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Air is a wireless medium that transports signals without physical solid conductors, classifying it as unguided.",
+        "text": "Air"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Coaxial cable provides a physical solid path for signal propagation, making it a guided medium.",
+        "text": "Coaxial cable"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Twisted-pair cable physically directs electrical signals along copper wires, making it a guided medium.",
+        "text": "Twisted-pair cable"
+      }
+    ],
+    "hint": "Differentiate between physical wired conductors and wireless propagation media.",
+    "question": "Which of the following communication media is categorized as an unguided transmission medium?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "High delay introduces unacceptable lag in real-time interactions, regardless of how much data can be transferred per second.",
+        "text": "High throughput and high delay."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This combination produces both high latency and poor data transfer rates, resulting in the worst possible performance.",
+        "text": "Low throughput and high delay."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Optimal performance is achieved by maximizing the volume of data delivered per second (throughput) while minimizing the time it takes for data to reach its destination (delay).",
+        "text": "High throughput and low delay."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Low throughput severely limits data capacity, causing poor video resolution and stream buffering.",
+        "text": "Low throughput and low delay."
+      }
+    ],
+    "hint": "Consider how data capacity per second and arrival latency impact live interactive media.",
+    "question": "When evaluating network performance for real-time video conference applications, which pair of networking metrics represents the ideal operational target?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This option incorrectly defines bandwidth as physical distance and jitter as signal frequency.",
+        "text": "Bandwidth (physical cable distance) and Jitter (signal frequency speed)"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This option mistakes delay for jitter and introduces a protocol component instead of a performance metric.",
+        "text": "Delay (variation in arrival time) and Semantics (meaning of data bits)"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This option reverses the definition of throughput and confuses reliability with bit rate.",
+        "text": "Throughput (time required to deliver data) and Reliability (bit rate capacity)"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Throughput measures data transfer volume per second (in bps), while delay measures delivery time (in seconds or ms).",
+        "text": "Throughput (amount of data delivered per second) and Delay (time required to deliver data)"
+      }
+    ],
+    "hint": "Consider how speed of transfer and time taken to arrive are measured in network evaluations.",
+    "question": "A network engineer evaluates network performance using two standard metrics. Which pair accurately defines these metrics?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "Transit time is the one-way travel time ($40\\text{ ms}$). Response time includes round-trip transit time ($40\\text{ ms} + 40\\text{ ms}$) plus server processing time ($30\\text{ ms}$), totaling $110\\text{ ms}$.",
+        "text": "Transit time is $40\\text{ ms}$; Response time is $110\\text{ ms}$."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This swaps the definitions of transit time (travel time) and response time (total system reaction time).",
+        "text": "Transit time is $110\\text{ ms}$; Response time is $40\\text{ ms}$."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Response time requires both the outbound request travel, server processing, and the return response travel.",
+        "text": "Transit time is $40\\text{ ms}$; Response time is $70\\text{ ms}$."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Transit time refers to one-way travel, and response time must also include the server's processing duration.",
+        "text": "Transit time is $80\\text{ ms}$; Response time is $80\\text{ ms}$."
+      }
+    ],
+    "hint": "Remember that response time encompasses round-trip travel along with processing delays.",
+    "question": "A user sends a request to a remote server. The total travel time for the request to reach the server is $40\\text{ ms}$, the server takes $30\\text{ ms}$ to process the request, and the response takes $40\\text{ ms}$ to travel back. What are the total transit time (one-way) and total response time for this interaction?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This value results from an order-of-magnitude arithmetic error during division.",
+        "text": "$30\\text{ seconds}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This value incorrectly multiplies distance by propagation speed instead of dividing them.",
+        "text": "$12\\text{ seconds}$"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Transit time is calculated as $\\text{Transit Time} = \\frac{\\text{Distance}}{\\text{Propagation Speed}} = \\frac{600,000\\text{ km}}{200,000\\text{ km/s}} = 3\\text{ s}$.",
+        "text": "$3\\text{ seconds}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This value erroneously divides propagation speed by distance instead of dividing distance by propagation speed.",
+        "text": "$0.33\\text{ seconds}$"
+      }
+    ],
+    "hint": "Use the formula $\\text{Transit Time} = \\frac{\\text{Distance}}{\\text{Propagation Speed}}$.",
+    "question": "A data packet travels across a physical network link over a distance of $600,000\\text{ km}$ at a propagation speed of $200,000\\text{ km/s}$. What is the transit time required for the packet to reach the destination?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Throughput evaluates the rate at which data is successfully transmitted over a medium.",
+        "text": "Throughput"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Security focuses on safeguarding data against unauthorized access, damage, or loss.",
+        "text": "Security"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Multiplexing is a technique used to combine multiple signals into one medium, not a resilience metric.",
+        "text": "Multiplexing"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Robustness measures a network's capacity to continue operating correctly or recover quickly when individual components or connections fail.",
+        "text": "Robustness"
+      }
+    ],
+    "hint": "Recall the term associated with fault tolerance and system endurance during partial failures.",
+    "question": "Which network quality metric refers specifically to the ability of a system to resist failures, adapt quickly, and maintain service even under abnormal operational conditions?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Throughput measures the amount of data transmitted per second, not system failure rates or recovery speed.",
+        "text": "Throughput"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Reliability measures how robustly a network resists failure, recovers quickly from disruptions, and maintains service stability.",
+        "text": "Reliability"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Semantics refers to the interpretation and meaning of specific control bit patterns within a protocol.",
+        "text": "Semantics"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Timeliness evaluates whether data is delivered within acceptable time limits without excessive latency.",
+        "text": "Timeliness"
+      }
+    ],
+    "hint": "Consider the metric associated with system stability, failure rates, and robustness.",
+    "question": "Which networking metric measures a network's frequency of failure, the time required to recover from a link failure, and its ability to function under catastrophic conditions?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Attenuation, distortion, and noise are the three main causes of signal transmission impairment.",
+        "text": "Attenuation, Distortion, and Noise"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "The four core criteria evaluating data communication system effectiveness are Delivery, Accuracy, Timeliness, and Jitter.",
+        "text": "Delivery, Accuracy, and Timeliness"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Bandwidth, frequency, and amplitude are physical parameters of analog and digital signals, not system effectiveness criteria.",
+        "text": "Bandwidth, Frequency, and Amplitude"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Topologies, protocols, and standards represent architectural concepts, not system evaluation criteria.",
+        "text": "Topologies, Protocols, and Standards"
+      }
+    ],
+    "hint": "Think about sending a message correctly, without errors, and on time.",
+    "question": "Which group lists three of the four primary characteristics required for a data communications system to be considered effective?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "The message is the actual data or information being transmitted, such as text, audio, or video, rather than the regulatory rules.",
+        "text": "Message"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The receiver is the target destination device that accepts the data, not the governing set of communication rules.",
+        "text": "Receiver"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The transmission medium represents the physical or wireless path through which signals travel, not the rules governing the exchange.",
+        "text": "Transmission Medium"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "A protocol defines the agreed-upon set of rules and conventions that regulate how data is transmitted and interpreted between communicating devices.",
+        "text": "Protocol"
+      }
+    ],
+    "hint": "Consider which component ensures all devices 'speak the same language' during transmission.",
+    "question": "In a data communication system, which component functions specifically as the governing set of rules that both the sender and receiver must agree upon to communicate effectively?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "The sender is the initiating device or node generating the message.",
+        "text": "Sender"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "The transmission medium (such as twisted pair, coaxial cable, fiber optic, or radio waves) provides the physical route for signals.",
+        "text": "Transmission Medium"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "A protocol is the set of governing rules for communication rather than the physical transmission pathway.",
+        "text": "Protocol"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "A port address is a logical identifier targeting a specific process within an operating system.",
+        "text": "Port Address"
+      }
+    ],
+    "hint": "Look for the physical conduit (wired or wireless) connecting the communicating endpoints.",
+    "question": "Which basic component of a data communication system serves as the physical pathway over which messages travel from sender to receiver?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "Timing defines when data should be sent and how fast it can be transmitted to avoid overwhelming the receiver.",
+        "text": "Timing"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Jitter is a measurement of delay variation, not a functional component of protocol specifications.",
+        "text": "Jitter"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Semantics refers to the interpretation or meaning of specific bit patterns, not transmission rate management.",
+        "text": "Semantics"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Syntax refers to the structure or format of data, not the speed or timing of transmission.",
+        "text": "Syntax"
+      }
+    ],
+    "hint": "Recall which protocol parameter manages transmission speed and synchronization between sender and receiver.",
+    "question": "A protocol rule dictates that if a sender transmits data at $100\\text{ Mbps}$ while the receiver can only process data at $1\\text{ Mbps}$, the sender must reduce its transmission speed to prevent data loss. Which element of a protocol does this rule represent?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Transmission rate control and coordination fall under the 'timing' component of protocols.",
+        "text": "The rate at which data should be transmitted to avoid buffer overflow."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Semantics defines the meaning of specific bit patterns and dictates how devices should interpret them and respond.",
+        "text": "The interpretation or meaning of each section of bits and what action to take."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Physical signal levels and format structures belong to syntax and physical layer specifications.",
+        "text": "The physical voltage level standards used for binary 0 and 1."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Physical cable arrangements describe network topology, not software protocol semantics.",
+        "text": "The physical layout and geometry of interconnecting cables."
+      }
+    ],
+    "hint": "Differentiate between syntax (structure), timing (when/speed), and semantics (meaning/action).",
+    "question": "Within protocol definition terms, what does the 'semantics' element specify?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Standards rely on layered models (such as OSI) to structure protocol specifications across all layers.",
+        "text": "To eliminate the need for lower layers in communication models like OSI."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Standards govern protocols, interfaces, and communication rules rather than restricting hardware dimensions.",
+        "text": "To force all computer hardware manufacturers to use the exact same cable length."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Standards define universal protocols and rules so that disparate networking systems can interoperate seamlessly.",
+        "text": "To ensure devices from different manufacturers can communicate effectively, reliably, and universally."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Communication standards promote universal global networking across all scales, including WANs and MANs.",
+        "text": "To restrict network access exclusively to local area networks (LANs)."
+      }
+    ],
+    "hint": "Think about the phrase 'speaking the same language' across diverse networking equipment.",
+    "question": "Why were data communication standards established by international organizations?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Simplex describes unidirectional data flow, not how multiple nodes physically share a single channel.",
+        "text": "Simplex connection"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "A point-to-point connection provides a dedicated link strictly between two specific devices.",
+        "text": "Point-to-point connection"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Unicast refers to a one-to-one transmission mode rather than a physical or logical line configuration sharing a link.",
+        "text": "Unicast connection"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "A multipoint (or multidrop) configuration allows three or more devices to share the capacity of a single transmission link.",
+        "text": "Multipoint connection"
+      }
+    ],
+    "hint": "Focus on the term used for shared channels where multiple stations tap into one main link.",
+    "question": "In a communication setup where more than two specific devices share a single physical link through a time-shared connection, which line configuration is being used?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "Bus topology relies on a single shared backbone cable connected via taps (multipoint), while mesh topology connects devices via dedicated links (point-to-point).",
+        "text": "Bus topology uses a multipoint line configuration, whereas mesh topology uses point-to-point connections."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Ring topology links each device directly to two adjacent devices using point-to-point connections.",
+        "text": "Ring topology uses a multipoint line configuration, whereas star topology uses point-to-point connections."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Mesh topology relies strictly on point-to-point dedicated links between every pair of nodes.",
+        "text": "Mesh topology uses a multipoint line configuration, whereas ring topology uses point-to-point connections."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Star topology uses point-to-point links between devices and the central hub, not multipoint.",
+        "text": "Star topology uses a multipoint line configuration, whereas bus topology uses point-to-point connections."
+      }
+    ],
+    "hint": "Differentiate topologies that share a single central line from those that connect nodes directly with dedicated links.",
+    "question": "Which of the following descriptions accurately pairs a network topology with its corresponding line configuration?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "Ring topologies consist of point-to-point links between consecutive repeaters/nodes, while bus topologies use a shared multipoint backbone line with drop lines.",
+        "text": "Point-to-point for the ring backbone and multipoint for the bus subnetworks."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This reverses the characteristics; ring links connect two points directly, whereas bus lines share one line among multiple devices.",
+        "text": "Multipoint for the ring backbone and point-to-point for the bus subnetworks."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Ring topologies use point-to-point links between neighboring nodes along the circular path.",
+        "text": "Multipoint for both the ring backbone and the bus subnetworks."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Bus subnetworks rely on multipoint drop connections to a shared cable, not point-to-point links.",
+        "text": "Point-to-point for both the ring backbone and the bus subnetworks."
+      }
+    ],
+    "hint": "Determine whether each component uses dedicated link pairs or shared multi-device cables.",
+    "question": "A system uses a circular backbone network connected via repeaters to two separate bus subnetworks containing drop lines. What are the line configurations of the backbone and subnetworks respectively?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "In a mesh topology, every device requires a dedicated point-to-point link to every other device, resulting in a combination formula of $n(n-1)/2$ total links.",
+        "text": "$\\frac{n(n-1)}{2}$ links"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This count would leave at least one node without direct interconnectivity across all other network endpoints.",
+        "text": "$n-1$ links"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Requiring only $n$ cable links corresponds to star or ring topologies where devices do not connect directly to all other devices.",
+        "text": "$n$ links"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "A single shared backbone line with individual drop lines defines a bus topology rather than a fully connected mesh.",
+        "text": "One backbone line and $n$ drop lines"
+      }
+    ],
+    "hint": "Consider the number of unique pairs that can be formed among $n$ nodes when every node connects directly to every other node.",
+    "question": "How many total physical cable links are required to establish a fully connected mesh topology network with $n$ devices?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This calculated value underestimates the point-to-point connections needed between all pairs of nodes.",
+        "text": "12 links"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "For $n$ nodes in a fully connected mesh topology, the formula for cable links is $\\frac{n(n-1)}{2}$. For $6$ nodes, this yields $\\frac{6(5)}{2} = 15$ physical links.",
+        "text": "15 links"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This equals $n$, which represents the number of links required in a star or ring topology rather than a fully connected mesh.",
+        "text": "6 links"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This value misapplies the formula by failing to divide by $2$, effectively counting each bidirectional link twice.",
+        "text": "30 links"
+      }
+    ],
+    "hint": "Apply the combinations formula for connecting every node to every other node without duplicating channels.",
+    "question": "A network engineer plans to deploy a fully connected mesh topology connecting $6$ server nodes. How many dedicated physical cable links are required?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Requiring $n$ links corresponds to a star or ring topology rather than a fully connected mesh network.",
+        "text": "6 cable links are required; only the two nodes attached to the failed cable lose connection."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Calculating $n(n-1)/2$ for $n = 6$ yields $\\frac{6 \\times 5}{2} = 15$ links. Because each node has dedicated point-to-point connections to every other node, a single link failure only affects direct transmission on that specific link while the rest of the network remains fully operational.",
+        "text": "15 cable links are required; communication between all non-failed nodes continues normally."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This option double-counts bidirectional links using $n(n-1)$ instead of $\\frac{n(n-1)}{2}$, and incorrectly assumes a mesh network lacks fault tolerance.",
+        "text": "30 cable links are required; the entire network shuts down until the failed cable is replaced."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Network-wide crashes due to a broken loop characterize ring topologies, not fully connected mesh networks.",
+        "text": "15 cable links are required; the entire network crashes because data cannot complete a circular loop."
+      }
+    ],
+    "hint": "Use the formula $\\frac{n(n-1)}{2}$ to calculate cable links and recall the defining feature of fault tolerance in mesh networks.",
+    "question": "A network engineer is designing a fully connected mesh network for 6 critical server nodes to ensure high fault tolerance and security. How many physical cable links are required, and what is the operational impact if one link fails?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "Mesh networks provide dedicated point-to-point links, ensuring high fault tolerance so that individual link failures do not impair unrelated node pairs.",
+        "text": "Only the connection between those two specific nodes fails, while all other node connections remain operational."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Complete network collapse from a single cable failure occurs in shared-medium topologies like a bus backbone, not in a mesh topology.",
+        "text": "The entire network crashes and no data can be transferred between any nodes."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Redundant dedicated pathways allow traffic between other nodes to continue uninterrupted.",
+        "text": "Data traffic across the remaining operational links is halted until the fault is repaired."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The affected nodes retain their individual dedicated cable links to all remaining four nodes in the mesh.",
+        "text": "The two affected nodes completely shut down and lose all network capabilities."
+      }
+    ],
+    "hint": "Recall the fundamental advantage of dedicated point-to-point links regarding fault isolation.",
+    "question": "In a fully connected mesh network of six nodes, what is the immediate consequence if a single cable connecting two specific nodes breaks?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This value results from evaluating $n(n-1)$ without dividing by $2$, forgetting that a single link connects two stations bi-directionally.",
+        "text": "$56$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This represents the number of links needed for a star or ring topology, not a fully connected mesh.",
+        "text": "$8$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This is a common arithmetic miscalculation from doubling the number of nodes instead of applying the combination formula.",
+        "text": "$16$"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "For $n$ nodes in a fully connected mesh topology, the total number of physical cable links required is given by $\\frac{n(n-1)}{2}$. Substituting $n=8$ gives $\\frac{8 \\times 7}{2} = 28$ links.",
+        "text": "$28$"
+      }
+    ],
+    "hint": "Use the formula for finding the number of distinct point-to-point connections among $n$ nodes: $\\frac{n(n-1)}{2}$.",
+    "question": "A enterprise network administrator needs to connect $8$ devices in a fully connected mesh topology. How many dedicated physical cable links are required?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "For $n$ devices, a fully connected mesh requires $\\frac{n(n-1)}{2}$ links; for $n = 10$, $\\frac{10 \\times 9}{2} = 45$.",
+        "text": "$45$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This calculation represents $n-1$, which is the number of links required for a single station to connect to all others, not the network total.",
+        "text": "$9$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This represents a linear or simple star requirement ($n$ links), not a fully connected mesh.",
+        "text": "$10$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This forgets to divide by $2$, double-counting duplex links between each pair of nodes.",
+        "text": "$90$"
+      }
+    ],
+    "hint": "Apply the combinations formula for connecting every node to every other node.",
+    "question": "A network designer needs to set up a fully connected mesh network connecting $10$ workstations. How many dedicated physical cable links are required?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "Mesh requires $n(n - 1) / 2 = 10(9) / 2 = 45$ links, while Star requires $n = 10$ links to connect each device to the central hub.",
+        "text": "45 links for Mesh, 10 links for Star"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "90 links incorrectly uses $n(n-1)$ for mesh instead of dividing by 2 to account for shared links.",
+        "text": "90 links for Mesh, 10 links for Star"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Star topology with 10 devices requires 10 dedicated cables (one for each station connecting to the hub), not 9.",
+        "text": "45 links for Mesh, 9 links for Star"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This reverses the cable requirements for Mesh and Star topologies.",
+        "text": "10 links for Mesh, 45 links for Star"
+      }
+    ],
+    "hint": "Apply the respective formulas $n(n - 1) / 2$ for fully connected mesh and $n$ for star.",
+    "question": "A network architect needs to connect 10 computers. How many total cable links are required if built as a Mesh network versus a Star network?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Ring topology connects nodes in a single circular loop, where a break typically impacts overall ring traffic flow.",
+        "text": "Ring"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Mesh topology uses dedicated links between every node pair, isolating link failures and ensuring private, secure point-to-point connections.",
+        "text": "Mesh"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Bus topology shares a single central cable, making a backbone break disastrous for the entire network.",
+        "text": "Bus"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Star topology connects nodes to a central hub rather than offering dedicated node-to-node physical links between every pair.",
+        "text": "Star"
+      }
+    ],
+    "hint": "Recall which topology provides full point-to-point redundancy across all system devices.",
+    "question": "Which network topology features dedicated point-to-point links between every pair of devices, guaranteeing high security and preventing a single cable break from interrupting communication between other nodes?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Mesh topologies use dedicated point-to-point connections for every pair of stations rather than a shared backbone cable.",
+        "text": "Mesh topology"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "A bus topology uses a multipoint line configuration where all stations share a main central communication cable via drop lines and taps.",
+        "text": "Bus topology"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Ring topologies connect devices in a continuous circular loop where each device connects point-to-point to exactly two neighboring repeaters.",
+        "text": "Ring topology"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Star topologies connect all endpoint stations directly to a central hub via individual point-to-point lines.",
+        "text": "Star topology"
+      }
+    ],
+    "hint": "Think of the topology that relies on a single shared cable with a multipoint line configuration.",
+    "question": "Which network topology uses a single common communication line functioning as a shared backbone connected via taps and drop lines?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "Bus topology requires one continuous shared communication line (backbone) and $n$ drop lines connecting individual stations via taps.",
+        "text": "One central backbone cable and 8 drop lines"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Calculating $8 \\times 7 / 2 = 28$ links applies to a mesh network rather than a multipoint bus topology.",
+        "text": "28 point-to-point cable links"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Connecting stations sequentially through repeaters in a closed circle defines a ring topology.",
+        "text": "8 ring repeaters connected in a circular loop"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Connecting 8 separate cables directly into a central hub describes a star topology layout.",
+        "text": "8 dedicated cables connected to a central hub"
+      }
+    ],
+    "hint": "Identify the line configuration (multipoint) and how individual stations tap into the main line.",
+    "question": "A network engineer plans to set up a bus topology network with 8 stations. What cable components are required to complete this physical setup?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Bus topologies do not have alternative redundant links or point-to-point node connections.",
+        "text": "Point-to-point line configuration; traffic automatically reroutes through secondary drops."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "A bus topology uses a multipoint shared line (backbone); a break in this main line collapses signal propagation across the entire network.",
+        "text": "Multipoint line configuration; all network data transfer stops completely."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Bus networks use multipoint connections rather than point-to-point, and a backbone break affects the full bus.",
+        "text": "Point-to-point line configuration; only the adjacent node stops operating."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "A fault in the main bus line disables signal flow for all drop lines on that bus segment.",
+        "text": "Multipoint line configuration; drop lines remain functional while only tap connectors fail."
+      }
+    ],
+    "hint": "Consider the connection type shared by all nodes and how a fault on the main trunk line affects signal propagation.",
+    "question": "What line configuration is used in a bus topology, and what occurs if the main central cable suffers a physical rupture?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Bus topologies lack redundant point-to-point links to alternate or reroute signals dynamically.",
+        "text": "The network automatically reroutes data using point-to-point mesh links."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "A failure restricted to a single drop line isolates only the corresponding device, while the remaining backbone continues functioning for other nodes.",
+        "text": "Only the station connected to that specific drop line stops operating."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "A complete network crash occurs when the main backbone cable fails, not when an individual drop line breaks.",
+        "text": "The entire network immediately crashes and no data can be transferred between any nodes."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Adjacent stations remain connected to the intact main backbone line unless the backbone itself is severed.",
+        "text": "Only adjacent stations on either side of the drop line are disconnected."
+      }
+    ],
+    "hint": "Distinguish between a failure in the main shared backbone cable and a failure in an individual node's tap line.",
+    "question": "What happens if a damage break occurs along a drop line connecting a single station to the main central cable in a bus topology?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This option reverses the roles of the central shared transmission medium and individual drop line connections.",
+        "text": "A drop line failure crashes the entire network, whereas a backbone break isolates only one station."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "A break in the main backbone cable disrupts the multipoint link for all connected devices on the bus.",
+        "text": "Both types of failure disrupt communication only between the two adjacent stations closest to the break."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Individual drop line failures leave the main shared backbone functional, keeping all other stations communicating.",
+        "text": "Both types of failure result in complete shutdown of the entire network."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "In a bus topology, drop lines connect individual stations to the shared backbone; thus, a drop line failure affects only its single attached device, while breaking the shared backbone prevents any data from being transferred across the network.",
+        "text": "A drop line failure disables only the connected station, whereas a backbone break halts all network communication."
+      }
+    ],
+    "hint": "Distinguish between the shared central line and individual connections attached via taps.",
+    "question": "In a network configured with a bus topology, what are the respective consequences of a single drop line failure versus a break in the main backbone cable?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "A break in a basic ring loop disrupts traffic across the entire ring network.",
+        "text": "A cable break in a simple Ring topology"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "If the central hub fails in a star topology, the entire network goes down.",
+        "text": "A central hub failure in a Star topology"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "In a bus topology, a failure in an individual drop line isolates only the station connected to that drop line.",
+        "text": "A drop line failure in a Bus topology"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "A break in the main bus backbone crashes the entire network, preventing all data transfer.",
+        "text": "A backbone line failure in a Bus topology"
+      }
+    ],
+    "hint": "Distinguish between a primary shared backbone/central device failure and a branch connection failure.",
+    "question": "A fault occurs on a single cable link. In which scenario will only the station connected to that specific failed cable lose network operation while all other stations continue communicating?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Terminators are components of bus topologies, not star topologies.",
+        "text": "A break in a terminator tap"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "A single damaged cable isolations only that specific connected station; all other stations remain functional.",
+        "text": "Failure of any individual station's point-to-point cable"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Repeaters operating in circular loops belong to ring topologies rather than star structures.",
+        "text": "Failure of a ring repeater node"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Because every network node relies on the central device to relay data, a central hub or switch failure disables all inter-device communications.",
+        "text": "Failure of the central hub or switch"
+      }
+    ],
+    "hint": "Identify the central controller component that connects all endpoint devices together in this layout.",
+    "question": "In a standard star topology, what is the single point of failure that can cause the complete shutdown of the entire network?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "In a ring topology, each node connects to two neighbors, creating a closed loop that requires exactly $n$ cable links for $n$ devices.",
+        "text": "$n$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This link structure is characteristic of a bus topology.",
+        "text": "$1\\text{ backbone} + n\\text{ drop lines}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This formula applies to fully connected mesh topologies, not ring networks.",
+        "text": "$\\frac{n(n-1)}{2}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "An open chain with $n - 1$ links leaves two ends disconnected, whereas a ring requires one additional link to close the circle.",
+        "text": "$n - 1$"
+      }
+    ],
+    "hint": "Count how many segments are required to connect $n$ points into a continuous circle.",
+    "question": "For a network of $n$ devices arranged in a standard ring topology, how many physical cable links are needed to form the network?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Tapping into a shared central line describes a bus topology.",
+        "text": "All devices tap into a single multipoint central line."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Dedicated connections between every pair of stations describe a mesh topology.",
+        "text": "Every station has a dedicated connection to all other stations in the network."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Centralized communication via a hub is the defining feature of a star topology.",
+        "text": "Devices communicate exclusively through a central controller hub."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "A ring topology connects nodes sequentially in a continuous circle where signals pass through each device via point-to-point connections.",
+        "text": "Each device connects directly to two neighbors using point-to-point links, forming a closed loop."
+      }
+    ],
+    "hint": "Think about the geometric shape of the layout and how many immediate neighbors each device links to.",
+    "question": "What is a characteristic feature of data transmission within a basic ring topology?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Central hubs serve as the center of star topologies, whereas ring networks rely on distributed point-to-point repeater connections.",
+        "text": "Central Hub"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "While amplifiers boost analog signal energy, repeaters specifically reconstruct digital bit signals in ring networks.",
+        "text": "Amplifier"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Ring topologies use repeaters at each node station to regenerate bits before retransmitting them to the next station.",
+        "text": "Repeater"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Taps are hardware connectors used to join drop lines to the main line in a bus topology.",
+        "text": "Tap"
+      }
+    ],
+    "hint": "Consider the device shown at each station in a ring network diagram that receives, regenerates, and retransmits data.",
+    "question": "What primary device is added at intermediate points along a ring topology network to regenerate and clean signals as they pass around the loop?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Ring topologies do not contain a central hub; communication relies on point-to-point connections between neighbor nodes.",
+        "text": "The central hub re-routes data in reverse direction automatically."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Standard ring topology relies on physical point-to-point guided cable links between repeaters.",
+        "text": "No devices are affected because all signals travel through unguided wireless links."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Ring topologies lack dynamic mesh rerouting unless explicit redundant rings or bypass hardware are designed into the network.",
+        "text": "Only the destination node is disconnected while all other nodes switch to full-mesh mode."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Because data travels sequentially through adjacent repeaters in a closed circular loop, a break in the ring disrupts signal path transmission for the network.",
+        "text": "The entire ring network can be disrupted because token/data flow is interrupted."
+      }
+    ],
+    "hint": "Consider how data travels sequentially around a single closed circular loop.",
+    "question": "What is the primary consequence if a connection failure occurs in a standard ring topology without redundant path mechanisms?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Network topologies do not automatically alter their physical cabling architecture upon experiencing a line break.",
+        "text": "The network automatically switches into a multipoint bus topology."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Ring topologies lack a central hub unless built into a hybrid structure.",
+        "text": "All stations immediately bypass their repeaters and connect directly to a central hub."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Because ring connections are point-to-point between adjacent repeaters, a break directly disables communication across the two stations linked by that path segment.",
+        "text": "Communication fails between the two devices connected by that broken link."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Physical cable breaks interrupt signal paths completely and cannot be bridged by boosting signal power.",
+        "text": "The entire network increases transmission amplitude to bridge the physical gap."
+      }
+    ],
+    "hint": "Consider the effect of a break on the two nodes immediately adjacent to the failed link.",
+    "question": "In a ring topology network featuring repeaters at each node, what occurs if a point-to-point link between two repeaters breaks?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "A mesh topology requires direct point-to-point connections among all nodes, without central hubs or separate sub-rings.",
+        "text": "Pure Mesh topology"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Combining two or more distinct basic topologies (such as a star backbone supporting ring networks) creates a hybrid structure.",
+        "text": "Hybrid topology"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The source material explicitly defines a tree topology as a specific hierarchy of star and bus structures, whereas star plus ring is categorized under hybrid.",
+        "text": "Tree topology"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "A bus topology uses a single backbone cable with taps, not a hub-and-ring arrangement.",
+        "text": "Bus topology"
+      }
+    ],
+    "hint": "Consider the term used when multiple different standard topologies are integrated together.",
+    "question": "A network topology consists of a central hub connected to three independent ring sub-networks. How is this topology classified?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "In this hybrid design, the star component acts as the central backbone via a central hub, while each connected subnet forms a circular ring connected through a repeater.",
+        "text": "A central hub connects to repeaters that each belong to individual ring networks."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Connecting hubs via a single line describes a tree or bus hybrid combination, not a star backbone with ring subnets.",
+        "text": "Three central hubs are connected together in a linear bus line."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This describes a fully connected full-mesh topology across all devices.",
+        "text": "Every device in all three subnets has a point-to-point link to every other device."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This describes a ring topology combined with bus taps, missing the central star hub backbone entirely.",
+        "text": "All stations are connected directly to one continuous circular line with drop lines."
+      }
+    ],
+    "hint": "Look for the structure where a central hub acts as the main hub connecting distinct circular subnetworks.",
+    "question": "How is a hybrid topology structured if it is designed with a star backbone connecting three ring networks?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "A drop line fault in a subnetwork does not break the central ring backbone path.",
+        "text": "The entire ring backbone crashes and all communication across all subnetworks stops."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The second bus subnetwork is completely independent and unaffected by a drop line fault in the first bus subnetwork.",
+        "text": "Both bus subnetworks fail, but the ring backbone remains functional."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "In a bus segment, a failure in an individual drop line isolates only its specific endpoint, preserving operation across the rest of the bus subnetwork and ring backbone.",
+        "text": "Only the single station connected to that drop line is isolated, while the rest of the bus and ring backbone continue operating."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Network repeaters do not dynamically change physical topology configurations into mesh setups.",
+        "text": "The repeater disconnects the ring backbone, turning the entire system into a mesh."
+      }
+    ],
+    "hint": "Analyze the localized effect of a single drop line failure within a bus subnetwork.",
+    "question": "If a hybrid topology is constructed using a ring backbone connected to two bus subnetworks via repeaters, what happens if one drop line fails in one of the bus subnetworks?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "A single linear channel represents a bus network, not a hierarchical tree topology.",
+        "text": "A single linear channel connected directly to high-power repeaters."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "The lecture slides define a tree topology specifically as a hierarchical combination of star and bus network arrangements.",
+        "text": "A combination of star and bus topologies in a hierarchy."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Mesh combined with ring is a general hybrid arrangement, not the specific definition provided for tree topology.",
+        "text": "A combination of mesh and ring topologies in a circle."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This describes a generic branching structure rather than the precise networking definition given in the text.",
+        "text": "A network where all nodes act as central hubs for four sub-nodes."
+      }
+    ],
+    "hint": "Look for the specific pair of basic topologies mentioned in the text that form a hierarchical structure.",
+    "question": "According to the source material, how is a Tree topology specifically defined?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "IEEE standards define specific lower-layer specifications rather than the comprehensive pre-1990 layered reference model.",
+        "text": "IEEE 802.3 Ethernet model"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "The 7-layer OSI model was the dominant theoretical and reference framework for data communications before 1990.",
+        "text": "Open Systems Interconnection (OSI) model"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The postal model is an everyday analogy used to explain layering concepts, not a formal network architecture.",
+        "text": "ARPANET postal model"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The TCP/IP suite became the dominant commercial architecture due to extensive practical testing on the Internet.",
+        "text": "TCP/IP protocol suite"
+      }
+    ],
+    "hint": "Identify the standard seven-layer framework developed by ISO.",
+    "question": "Which layered model dominated data communications and networking theory prior to 1990?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "The seven-layer theoretical model is the OSI model, not TCP/IP.",
+        "text": "It features seven strictly separated theoretical layers."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "TCP/IP gained dominance primarily due to its extensive practical testing and widespread real-world adoption on the Internet.",
+        "text": "It was tested and used extensively in the Internet."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The OSI model was developed by ISO, whereas TCP/IP evolved through practical Internet deployment.",
+        "text": "It was designed exclusively by ISO to replace all proprietary hardware standards."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Physical layer interactions rely predominantly on physical hardware, regardless of model.",
+        "text": "It guarantees that physical layer transmission is implemented purely in software."
+      }
+    ],
+    "hint": "Consider the practical environment where TCP/IP was deployed and refined over time.",
+    "question": "Why did the TCP/IP protocol suite surpass the OSI model to become the dominant commercial architecture for modern networking?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Six is not a standard count for either the traditional OSI architecture or TCP/IP suite.",
+        "text": "6"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "The OSI model establishes seven distinct functional layers ranging from Physical (Layer 1) to Application (Layer 7).",
+        "text": "7"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Five layers represent the updated, practical model of the TCP/IP suite.",
+        "text": "5"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Four layers correspond to the original TCP/IP protocol suite definition.",
+        "text": "4"
+      }
+    ],
+    "hint": "Recall the classic model that dominated networking standards prior to the widespread commercial adoption of TCP/IP.",
+    "question": "How many separate layers are defined in the standard Open Systems Interconnection (OSI) reference model?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This option incorrectly swaps the positions of Transport/Network and Presentation/Session.",
+        "text": "Physical, Data link, Transport, Network, Presentation, Session, Application"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This list represents the layers in descending order from Layer 7 down to Layer 1, reversing the requested sequence.",
+        "text": "Application, Presentation, Session, Transport, Network, Data link, Physical"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "This matches the exact numerical order of the OSI model from bottom (Layer 1: Physical) to top (Layer 7: Application).",
+        "text": "Physical, Data link, Network, Transport, Session, Presentation, Application"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Data link is Layer 2 and Network is Layer 3; this option incorrectly swaps their order.",
+        "text": "Physical, Network, Data link, Transport, Session, Presentation, Application"
+      }
+    ],
+    "hint": "Recall standard mnemonics starting from the physical transmission layer up to the end-user interface.",
+    "question": "In the 7-layer OSI reference model, what is the correct sequence of layers starting from Layer 1 up to Layer 7?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Layer 5 corresponds to the Session layer.",
+        "text": "Layer 5"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Layer 2 corresponds to the Data Link layer.",
+        "text": "Layer 2"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "In the seven-layer OSI model, Layer 1 is Physical, Layer 2 is Data Link, and Layer 3 is Network.",
+        "text": "Layer 3"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Layer 4 corresponds to the Transport layer.",
+        "text": "Layer 4"
+      }
+    ],
+    "hint": "Count sequentially from the bottom (Physical layer as Layer 1) upward.",
+    "question": "In the standard Open Systems Interconnection (OSI) model, which layer number corresponds to the Network layer?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Peer-to-peer logical communication at higher layers requires physical data flow down through lower layers on the sending machine.",
+        "text": "It communicates directly with Layer 3 of a peer machine without passing data down through lower layers."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This reverses the service hierarchy; lower layers serve higher layers, not the other way around.",
+        "text": "It provides services to Layer 2 and uses services provided by Layer 4."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Layers must interact sequentially with adjacent layers; Layer 3 cannot bypass Layer 2.",
+        "text": "It bypasses Layer 2 to directly send physical signals via Layer 1."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "In a layered architecture, any given layer $x$ utilizes the capabilities of the layer below it ($x-1$) and services the layer above it ($x+1$).",
+        "text": "It uses services provided by Layer 2 and provides services to Layer 4."
+      }
+    ],
+    "hint": "Remember that lower-numbered layers furnish services to higher-numbered layers.",
+    "question": "Within a single computer system executing the OSI protocol stack, how does Layer 3 (Network Layer) interact with adjacent layers?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "OSI rules require sequential interaction where each layer only interfaces directly with its immediate neighbors.",
+        "text": "Layer 3 provides services directly to Layer 1 while skipping Layer 2."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Within a single system, a layer relies on the service interface of the layer beneath it and offers services to the layer above.",
+        "text": "Each layer calls the services provided by the layer directly below it."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Raw signals are strictly processed and transmitted at the bottom (Physical Layer 1).",
+        "text": "Higher layers process raw electromagnetic signals before passing them down to lower layers."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Direct horizontal transmission only occurs logically (peer-to-peer); actual physical transmission travels down through local lower layers.",
+        "text": "Each layer communicates directly across physical space to the higher layers of the destination host."
+      }
+    ],
+    "hint": "Remember how Layer 3 uses Layer 2's services to serve Layer 4.",
+    "question": "How do adjacent layers interact within a single machine using the OSI model?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Physical transmission occurs exclusively through Layer 1, while higher layers communicate logically.",
+        "text": "Within a machine, lower layers override higher layers; between machines, physical signals travel directly across Layer 4."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "All layers participate in process isolation and encapsulation on both sending and receiving hosts.",
+        "text": "Within a machine, communication happens only at Layer 1; between machines, it happens only at Layer 7."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Data must move sequentially down the sender's stack and up the receiver's stack rather than skipping layers.",
+        "text": "Within a machine, each layer communicates directly with the layer above it; between machines, all data skips intermediate layers."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Local layers serve the layer above them, while corresponding layers across systems communicate virtually via peer protocols.",
+        "text": "Within a machine, each layer calls services of the layer below it; between machines, communication occurs via peer-to-peer protocols at the same layer."
+      }
+    ],
+    "hint": "Distinguish between vertical adjacent-layer service calls and horizontal peer-to-peer logical communication.",
+    "question": "In the OSI model framework, how do software/hardware processes interact within a single machine versus across separate network machines?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Every layer relies on agreed protocol rules to govern logical communication with its peer layer on the target machine.",
+        "text": "Only Layer 7 communicates across machines; lower layers operate exclusively inside a single computer without protocols."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Processes on each machine at a given layer are peer-to-peer processes; they communicate logically via protocols defined for that specific layer level.",
+        "text": "Layer $x$ on the sending machine logically communicates with Layer $x$ on the receiving machine using protocols specific to that layer."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Communication passes strictly down through adjacent interfaces on sending hosts before actual physical transfer occurs.",
+        "text": "All layers on the sender bypass intermediate layers and connect directly to the Application layer of the receiver."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Data must pass down through lower layers on the sender and back up through lower layers on the receiver; adjacent layers cross-talk directly across devices is not possible.",
+        "text": "Layer $x$ on the sending machine directly transmits raw physical signals to Layer $x+1$ on the receiving machine."
+      }
+    ],
+    "hint": "Consider how horizontal logical communication functions across equivalent layers in layered network models.",
+    "question": "How do peer-to-peer processes interact between two distinct end devices operating under the OSI network model?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Bit conversion occurs at Layer 1 (Physical layer), at the very end of the transmission process on the sender.",
+        "text": "The message is immediately converted into raw physical bits at Layer 7."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Encapsulation occurs on the sender side, where each layer prepends header control data (and Layer 2 adds a trailer) to the incoming data unit.",
+        "text": "Each layer adds its own control header information to the message before passing it to the layer below."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Except at the physical layer, higher layers must pass data down through all intervening local layers.",
+        "text": "The data is transmitted directly across peer-to-peer virtual connections without lower layer processing."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Unwrapping or decapsulation occurs on the receiving device, not the sending device.",
+        "text": "Each layer unwraps and removes header data before passing the payload downward."
+      }
+    ],
+    "hint": "Recall the process of encapsulation performed at each stage of outgoing data preparation.",
+    "question": "During data transmission using the OSI model, what happens as a message passes down through the layers on the sending device?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "The presentation layer handles data syntax, formatting, and encryption by adding headers rather than trailers.",
+        "text": "Presentation Layer (Layer 6)"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The network layer adds logical addressing information in a header, but it does not append a trailer.",
+        "text": "Network Layer (Layer 3)"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The physical layer converts formatted data units into raw electromagnetic signals rather than framing data units with protocol trailers.",
+        "text": "Physical Layer (Layer 1)"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "While upper layers prepend headers to data units as they move down the protocol stack, a trailer is commonly added specifically at Layer 2 (Data Link Layer).",
+        "text": "Data Link Layer (Layer 2)"
+      }
+    ],
+    "hint": "Identify the lower layer that encapsulates data into frames by adding control information at both the head and tail of the packet.",
+    "question": "During data encapsulation on the sending machine, at which layer of the OSI model is a trailer typically appended to the data unit?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "Application, presentation, and session layers run in software, whereas lower layers combine hardware and software, with Layer 1 being mostly hardware.",
+        "text": "The upper OSI layers are almost always implemented in software, while the physical layer is mostly hardware."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Layers 2 through 6 contain substantial software driver and protocol logic implementation.",
+        "text": "Only Layer 7 (Application) is software; Layers 1 through 6 are exclusively hardware."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Upper layers are flexible user applications and operating system processes implemented in software.",
+        "text": "All seven OSI layers must be implemented strictly in specialized hardware circuits."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This reverses the OSI implementation hierarchy; upper user-facing layers are software-based.",
+        "text": "The lower OSI layers are strictly software, while the upper layers consist entirely of hardware."
+      }
+    ],
+    "hint": "Recall which end of the OSI stack deals directly with physical signals and cabling versus user applications.",
+    "question": "Which layers of the OSI model are typically implemented almost entirely in software versus hardware?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "The Transport Layer ensures process-to-process delivery of messages, contrasting with the Network Layer (host-to-host) and Data Link Layer (hop-to-hop).",
+        "text": "Transport Layer"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The Data Link Layer manages node-to-node or hop-to-hop frame delivery across a single physical link.",
+        "text": "Data Link Layer"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The Physical Layer is responsible for moving individual raw bits over a physical medium.",
+        "text": "Physical Layer"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The Network Layer manages host-to-host packet delivery across multiple network links.",
+        "text": "Network Layer"
+      }
+    ],
+    "hint": "Differentiate between hop-to-hop, host-to-host, and process-to-process delivery scopes.",
+    "question": "Which layer of the OSI reference model is specifically responsible for process-to-process delivery of an entire message?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Data presentation is performed by the Presentation layer, and dialog control is managed by the Session layer.",
+        "text": "The Network layer presents formatted data to applications, while the Transport layer establishes session dialogs."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Physical bit encoding belongs to the Physical layer, while logical addressing belongs to the Network layer.",
+        "text": "The Network layer handles physical bit encoding, while the Transport layer manages logical IP addressing."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Node-to-node framing is handled by the Data Link layer, and process-to-process delivery is managed by the Transport layer.",
+        "text": "The Network layer guarantees process-to-process delivery, while the Transport layer manages local node-to-node framing."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "The Network layer routes packets between source and destination hosts, whereas the Transport layer delivers data specifically between running software processes on those hosts.",
+        "text": "The Network layer ensures host-to-host delivery across networks, while the Transport layer ensures process-to-process delivery of the entire message."
+      }
+    ],
+    "hint": "Contrast delivering a packet to a computer vs. delivering a message to a specific application running on that computer.",
+    "question": "According to the functionality defined in the OSI model, how does the Network layer responsibility differ from that of the Transport layer?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "The Network Layer manages routing and host-to-host packet delivery.",
+        "text": "Network Layer"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "The Session Layer is designated as the network dialog controller, responsible for dialog control and checkpoint synchronization.",
+        "text": "Session Layer"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The Transport Layer manages end-to-end segmentation and process-to-process message delivery.",
+        "text": "Transport Layer"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The Presentation Layer manages syntax, data translation, compression, and encryption.",
+        "text": "Presentation Layer"
+      }
+    ],
+    "hint": "Identify the layer responsible for controlling conversation flow and synchronization checkpoints between systems.",
+    "question": "Which layer of the OSI model acts as the network dialog controller, establishing, maintaining, and synchronizing interactions between communicating systems?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "The Transport layer functions independently from the upper presentation and session duties.",
+        "text": "Presentation, Session, and Transport"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Transport and Network remain distinct, separate layers in the TCP/IP model.",
+        "text": "Session, Transport, and Network"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "These form the lower network hardware and routing layers of the architecture.",
+        "text": "Network, Data Link, and Physical"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "The TCP/IP suite consolidates the functions of the OSI Application, Presentation, and Session layers into its top Application layer.",
+        "text": "Application, Presentation, and Session"
+      }
+    ],
+    "hint": "Identify the top three layers of the 7-layer OSI model that deal directly with user applications, data formatting, and dialog management.",
+    "question": "In the five-layer conceptual model of the TCP/IP suite, which three upper OSI layers are combined into a single Application layer?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "While frame headers update destination MACs hop-by-hop, a device's own physical MAC hardware address itself remains fixed.",
+        "text": "It changes automatically every time a frame travels through a router into a new LAN segment."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Dynamic variable assignment across IP networks characterizes logical (IP) addresses, not physical MAC addresses.",
+        "text": "It is a variable logical address assigned dynamically whenever a device connects to an IP network."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Process identification is the duty of transport layer port addresses.",
+        "text": "It identifies the specific software process receiving data on a host machine."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Physical addresses operate at the lowest addressing level (Data Link layer) and uniquely identify hardware interfaces on a LAN/WAN.",
+        "text": "It is a unique link address defined by a node's network interface card that cannot be changed."
+      }
+    ],
+    "hint": "Think about the permanent address burned into a network hardware interface card.",
+    "question": "Which statement correctly describes a physical (MAC) address in network communications?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Port addresses identify specific processes or applications operating at the transport layer.",
+        "text": "Port address"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Specific addresses are user-friendly identifiers (such as email addresses or URLs) defined at higher application levels.",
+        "text": "Specific address"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Logical addresses refer to IP addresses used at the network layer for global routing.",
+        "text": "Logical address"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "The physical address (or MAC address) is defined at the data link layer and is known as the link address of a node.",
+        "text": "Physical address"
+      }
+    ],
+    "hint": "Identify the low-level hardware node address defined at the Data Link layer.",
+    "question": "Which level of address in a TCP/IP internet architecture is also commonly referred to as the link address?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Every newly generated frame header must contain both a valid source MAC and destination MAC address for the local link.",
+        "text": "The physical source address is permanently stripped off at the first intermediate node."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Data link layer frames encapsulate packets per physical link, updating source and destination MAC addresses at every intermediate router boundary.",
+        "text": "The physical addresses change at each link to reflect the MAC addresses of the current sender and next-hop receiver."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Logical (IP) addresses remain constant end-to-end, whereas physical (MAC) addresses change at each router hop.",
+        "text": "The physical addresses remain completely unchanged throughout the entire multi-hop transmission journey."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Port numbers belong to transport layer headers and do not replace data link physical addresses.",
+        "text": "The physical destination address changes to the port number of the target application."
+      }
+    ],
+    "hint": "Recall which addressing layer stays constant end-to-end versus which layer is updated for local hop delivery.",
+    "question": "As a data frame moves hop-by-hop across intermediate router nodes on a network path from source to destination, what happens to its physical source and destination addresses?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Logical addresses (IP) route data across networks to destination host machines, not individual internal processes.",
+        "text": "Logical address"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Physical addresses (MAC) identify network hardware interface cards on a local network segment.",
+        "text": "Physical address"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Port addresses operate at the Transport layer to identify specific applications or processes executing on a target host.",
+        "text": "Port address"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Link address is another name for physical MAC addressing at the Data Link layer.",
+        "text": "Link address"
+      }
+    ],
+    "hint": "Think of the numerical identifier appended to an IP address (e.g., port 80 for HTTP) to reach a specific application.",
+    "question": "In the TCP/IP protocol suite addressing structure, which address type is specifically used to direct data to a particular process running on a host computer?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This statement reverses the definitions of analog and digital data.",
+        "text": "Analog data takes on discrete binary states, while digital data is continuously variable."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Digital signals have limited defined values, whereas analog signals have infinite potential values across a continuous range.",
+        "text": "Analog data has a finite set of defined values, while digital data possesses infinite values in a range."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Analog data varies continuously over time (like human voice), whereas digital data consists of distinct, discrete states (like binary 0s and 1s).",
+        "text": "Analog data represents continuous information, while digital data takes on discrete values."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Computer memory stores digital data in binary form, whereas continuous sound is an example of analog data.",
+        "text": "Analog data is stored in computer memory as 0s and 1s, while digital data consists of continuous sound waves."
+      }
+    ],
+    "hint": "Differentiate continuous signals (like sound) from discrete values (like computer memory bits).",
+    "question": "Which statement accurately distinguishes analog data from digital data?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This reverses the definition of analog and digital signal characteristics.",
+        "text": "Analog signals take on discrete binary values, while digital signals vary continuously over time."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Digital signals use discrete logic levels, whereas analog signals move through continuous infinite values.",
+        "text": "Analog signals possess fixed logic states, while digital signals have infinite frequency harmonics."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Data communications commonly uses periodic analog signals and non-periodic digital signals.",
+        "text": "Analog signals are non-periodic, while digital signals are always periodic sine waves."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Analog signals vary smoothly and continuously over a continuum, whereas digital signals represent data using distinct, defined states (such as binary $0$s and $1$s).",
+        "text": "Analog signals have infinite continuous values in a range, while digital signals have a limited number of defined discrete values."
+      }
+    ],
+    "hint": "Focus on the distinction between continuous smooth variation and step-like discrete values.",
+    "question": "How do analog signals fundamentally differ from digital signals regarding the value states they can assume?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "As explicitly outlined in communication fundamentals, periodic analog signals (like sine waves) and non-periodic digital signals (like variable bit pulses) are standard.",
+        "text": "Periodic analog signals and non-periodic digital signals"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This reverses standard usage; digital data streams rarely repeat periodically in continuous sequences, whereas carrier analog waves are periodic.",
+        "text": "Non-periodic analog signals and periodic digital signals"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Simple analog carrier waves used in modulation techniques are periodic in nature.",
+        "text": "Non-periodic analog signals and non-periodic digital signals exclusively"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Continuous repeating digital signals carry no information because they contain no dynamic state changes.",
+        "text": "Periodic analog signals and periodic digital signals"
+      }
+    ],
+    "hint": "Recall which signal type repeats regularly at fixed periods (carrier) versus state-changing data patterns.",
+    "question": "In data communications, which types of signals are most commonly used for analog and digital data transmission?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "All periodic analog signals possess amplitude, frequency, and phase parameters.",
+        "text": "A simple periodic signal has no frequency, while a composite signal has zero amplitude."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Sine waves are the foundational simple analog signals, not square waves.",
+        "text": "A simple signal consists of square waves, while a composite signal contains only single sine waves."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "A sine wave is simple because it cannot be broken down further; composite signals are combinations of several sine waves at varying frequencies.",
+        "text": "A simple periodic analog signal cannot be decomposed into simpler signals, whereas a composite signal is made of multiple sine waves."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Continuous stepped signals describe digital concepts, not simple vs. composite analog signals.",
+        "text": "A simple periodic signal changes continuously in discrete steps, whereas composite signals have infinite phase shifts."
+      }
+    ],
+    "hint": "Focus on whether or not the wave can be broken down or decomposed into simpler sine components.",
+    "question": "According to the source material, how is a simple periodic analog signal distinguished from a composite periodic analog signal?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Bit rate and SNR relate to data limits and noise ratios in digital data transmission.",
+        "text": "Bit Rate, Baud Rate, and SNR"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Bandwidth, attenuation, and noise are channel/signal impairment factors, not the three basic parameters of a pure sine wave.",
+        "text": "Bandwidth, Attenuation, and Noise"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "As defined in the lecture context, any sine wave is uniquely described by its peak amplitude, frequency, and phase.",
+        "text": "Peak Amplitude, Frequency, and Phase"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "These are general electrical properties (Ohm's Law parameters), not wave-characterizing parameters.",
+        "text": "Voltage, Resistance, and Current"
+      }
+    ],
+    "hint": "Recall the three parameters specified on the slide titled 'ANALOG SIGNAL'.",
+    "question": "Which three fundamental parameters fully characterize a simple sine wave?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Displacement relative to time zero defines the phase of the signal.",
+        "text": "The horizontal displacement of the waveform relative to time zero."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The number of cycles per second defines the signal's frequency ($f$), measured in Hertz.",
+        "text": "The total number of complete signal cycles occurring per second."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Peak amplitude is defined as the absolute value of the maximum intensity reached by the signal over time.",
+        "text": "The absolute value of the signal's highest intensity level."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "The time required for one complete cycle defines the period ($T$) of the signal.",
+        "text": "The time required to complete one full cycle."
+      }
+    ],
+    "hint": "Look for the term describing the maximum vertical height or maximum strength of the waveform.",
+    "question": "What is the peak amplitude of a simple sine wave signal?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This describes a sine wave with a phase of $0^\\circ$.",
+        "text": "It starts with zero amplitude and its amplitude is increasing."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "A $90^\\circ$ shifted sine wave ($\\\\sin(\\theta + 90^\\circ) = \\\\cos\\theta$) starts at maximum positive peak amplitude at time $t=0$ and immediately begins decreasing.",
+        "text": "It starts with peak amplitude and its amplitude is decreasing."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This describes a sine wave with a phase of $180^\\circ$.",
+        "text": "It starts with zero amplitude and its amplitude is decreasing."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This describes a sine wave shifted by $270^\\circ$.",
+        "text": "It starts at negative peak amplitude and its amplitude is increasing."
+      }
+    ],
+    "hint": "Think of $\\sin(0^\\circ + 90^\\circ)$, which equals $\\cos(0^\\circ)$.",
+    "question": "If a sine wave has a phase of $90^\\circ$, what is its starting state at time $t = 0$?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "A $0^\\circ$ phase sine wave starts at time $0$ with zero amplitude and an increasing trend.",
+        "text": "$0^\\circ$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "A $90^\\circ$ phase sine wave starts at time $0$ with peak positive amplitude.",
+        "text": "$90^\\circ$"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "A sine wave with a phase of $180^\\circ$ passes through zero amplitude at time $0$ with a decreasing trend.",
+        "text": "$180^\\circ$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "A $270^\\circ$ phase sine wave starts at time $0$ with peak negative amplitude.",
+        "text": "$270^\\circ$"
+      }
+    ],
+    "hint": "Differentiate how a $0^\\circ$ shift and a $180^\\circ$ shift behave as they cross the zero-axis at time zero.",
+    "question": "A sine wave starts at time $t = 0$ with an amplitude of zero, and its amplitude is currently decreasing toward a negative peak. What is the phase of this sine wave?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This results from misinterpreting $0.02\\text{ s}$ directly as $1/50$ without calculating reciprocal fraction correctly.",
+        "text": "$20\\text{ Hz}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This confuses frequency $f$ directly with signal period $T$.",
+        "text": "$0.02\\text{ Hz}$"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Frequency $f$ is the reciprocal of period $T$ ($f = 1 / T$). Calculating $1 / 0.02\\text{ s}$ yields $50\\text{ Hz}$.",
+        "text": "$50\\text{ Hz}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This calculation error corresponds to evaluating $1 / 0.002\\text{ s}$.",
+        "text": "$500\\text{ Hz}$"
+      }
+    ],
+    "hint": "Use the mathematical relationship $f = 1 / T$ where period $T$ is in seconds.",
+    "question": "If a periodic analog signal completes one full cycle every $0.02\\text{ seconds}$, what is its frequency?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This value corresponds to a wave with a frequency of $20\\text{ Hz}$ ($T = \\frac{1}{20}$).",
+        "text": "$0.05\\text{ seconds}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This option treats the period as numerically equal to the frequency rather than its reciprocal.",
+        "text": "$200\\text{ seconds}$"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Frequency and period are inverse functions ($T = \\frac{1}{F}$). Calculating $\\frac{1}{200\\text{ Hz}}$ yields $0.005\\text{ s}$.",
+        "text": "$0.005\\text{ seconds}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This value corresponds to a wave with a frequency of $5\\text{ Hz}$ ($T = \\frac{1}{5}$).",
+        "text": "$0.2\\text{ seconds}$"
+      }
+    ],
+    "hint": "Apply the mathematical relationship $T = \\frac{1}{F}$.",
+    "question": "A periodic analog wave completes its cycles at a frequency $F = 200\\text{ Hz}$. What is the period ($T$) of this wave?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "Period is the reciprocal of frequency ($T = \\frac{1}{f}$). Since $f = 12\\text{ Hz}$, $T = \\frac{1}{12}\\text{ s}$.",
+        "text": "$\\frac{1}{12}\\text{ s}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This value represents the frequency in Hertz rather than the period in seconds.",
+        "text": "$12\\text{ s}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This is the total elapsed time window, not the duration of a single cycle.",
+        "text": "$1\\text{ s}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This incorrect value results from halving the cycle count in the denominator.",
+        "text": "$\\frac{1}{6}\\text{ s}$"
+      }
+    ],
+    "hint": "Use the inverse relationship formula between frequency and period.",
+    "question": "A periodic signal completes $12$ full cycles in $1\\text{ second}$. What is the period ($T$) of this signal?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "If the period were $12\\text{ s}$, the frequency would be $\\frac{1}{12}\\text{ Hz}$, not $12\\text{ Hz}$.",
+        "text": "Period $T = 12\\text{ s}$ and Frequency $f = 12\\text{ Hz}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Frequency is the reciprocal of period; $\\frac{1}{1/12}$ equals $12$, not $\\frac{1}{12}$.",
+        "text": "Period $T = \\frac{1}{12}\\text{ s}$ and Frequency $f = \\frac{1}{12}\\text{ Hz}$"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Period is the time required to complete one cycle ($T = \\frac{1}{12}\\text{ s}$), and frequency is the inverse of period ($f = \\frac{1}{T} = 12\\text{ Hz}$).",
+        "text": "Period $T = \\frac{1}{12}\\text{ s}$ and Frequency $f = 12\\text{ Hz}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This miscalculates both the cycle time and the inverse frequency value.",
+        "text": "Period $T = 1\\text{ s}$ and Frequency $f = 6\\text{ Hz}$"
+      }
+    ],
+    "hint": "Use the reciprocal relationship $f = \\frac{1}{T}$ between period in seconds and frequency in Hertz.",
+    "question": "A periodic sine wave completes one full cycle in $\\frac{1}{12}\\text{ s}$. What are the period ($T$) and frequency ($f$) of this signal?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Amplitude measures signal intensity, which is independent of spatial distance traveled (wavelength).",
+        "text": "Wavelength = $\\frac{\\text{Peak Amplitude}}{\\text{Period}}$"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Wavelength represents the distance a signal travels in one period, which equals propagation speed multiplied by period ($T$).",
+        "text": "Wavelength = Propagation Speed $\\times$ Period"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Speed multiplied by frequency is incorrect because wavelength is inversely proportional to frequency ($\\lambda = \\frac{\\text{Speed}}{\\text{Frequency}}$).",
+        "text": "Wavelength = Propagation Speed $\\times$ Frequency"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Dividing period by propagation speed yields an incorrect dimensional unit.",
+        "text": "Wavelength = $\\frac{\\text{Period}}{\\text{Propagation Speed}}$"
+      }
+    ],
+    "hint": "Think about spatial distance traveled over the duration of one complete wave cycle.",
+    "question": "How is the wavelength ($\\lambda$) of a signal calculated, based on its physical properties in a transmission medium?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Plotting peak amplitude against frequency using vertical spikes describes a frequency-domain plot.",
+        "text": "A time-domain plot displays peak amplitude against frequency using a single vertical spike."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Time-domain plots specifically track instantaneous amplitude over time.",
+        "text": "A time-domain plot shows only the phase angle while hiding signal amplitude."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Time-domain plots can represent both simple and composite signals.",
+        "text": "A time-domain plot cannot be generated for composite periodic signals."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "The source material explicitly states that time-domain plots show amplitude versus time, while phase is omitted from the plot.",
+        "text": "A time-domain plot shows changes in signal amplitude with respect to time, but does not explicitly show phase."
+      }
+    ],
+    "hint": "Focus on the two axes of a time-domain plot (amplitude on $y$-axis, time on $x$-axis).",
+    "question": "What information does a time-domain plot convey about an analog signal compared to a frequency-domain plot?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Frequency-domain plots focus on peak amplitude and frequency values rather than explicit phase curves.",
+        "text": "It shows the exact phase shift of every wave cycle at time $t=0$."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Packet arrival delay tracking relates to network jitter measurements, not physical signal domain plots.",
+        "text": "It tracks packet arrival delays across central switching hubs."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "A frequency-domain plot shows the peak amplitude corresponding to each individual frequency component present in a signal.",
+        "text": "It displays peak amplitude and frequency for signal components."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Continuous amplitude variation over time is shown in a time-domain plot.",
+        "text": "It plots continuous changes in signal amplitude over time."
+      }
+    ],
+    "hint": "Think about representing a signal as a set of vertical spikes representing component frequencies and their maximum levels.",
+    "question": "What key information does a frequency-domain plot provide that distinguishes it from a time-domain plot?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "Time-domain displays continuous amplitude against time (without showing phase), while frequency-domain displays peak values at discrete frequencies.",
+        "text": "A time-domain plot shows amplitude changes over time, while a frequency-domain plot shows peak amplitude relative to frequency."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This is reversed; a sine wave appears as a continuous wave in the time domain and a single spike in the frequency domain.",
+        "text": "A single simple sine wave is shown as a continuous curve in the frequency domain and a single spike in the time domain."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Time-domain plots do not show phase, and frequency-domain plots explicitly show peak amplitude.",
+        "text": "A time-domain plot displays phase shifts, whereas a frequency-domain plot omits amplitude values."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Instantaneous voltage over time is plotted in the time domain.",
+        "text": "Frequency-domain plots measure instantaneous voltage variations over time."
+      }
+    ],
+    "hint": "Consider what is placed on the horizontal axis for each type of graphical representation.",
+    "question": "Which of the following statements correctly contrasts a time-domain plot with a frequency-domain plot of a signal?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "In a frequency domain plot, a complete sine wave is represented by a single vertical spike located at its frequency value on the x-axis with a height equal to its peak amplitude.",
+        "text": "As a single vertical spike of height $5\\text{ V}$ positioned at $6\\text{ Hz}$ on the horizontal axis."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Frequency domain plots do not use horizontal continuous lines to represent discrete sine components.",
+        "text": "As a horizontal line at height $6\\text{ V}$ extending to $5\\text{ seconds}$."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Continuous wave oscillation across time axes defines a time-domain plot, not a frequency-domain plot.",
+        "text": "As a continuous oscillating wave oscillating between $+5\\text{ V}$ and $-5\\text{ V}$ across 6 time intervals."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "A single simple sine wave has only one discrete frequency component, not multiple split spikes.",
+        "text": "As 6 separate vertical spikes of height $1\\text{ V}$ distributed uniformly between $0\\text{ Hz}$ and $5\\text{ Hz}$."
+      }
+    ],
+    "hint": "Recall that the frequency domain isolates peak value on the vertical axis against frequency on the horizontal axis.",
+    "question": "How is a single simple sine wave with a frequency of $6\\text{ Hz}$ and peak amplitude of $5\\text{ V}$ represented in a frequency-domain plot?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Eight bits per level would require $2^8 = 256$ signal levels.",
+        "text": "$8\\text{ bits}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Four bits would require $2^4 = 16$ distinct signal levels.",
+        "text": "$4\\text{ bits}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "One bit per level corresponds to $L = 2$ signal levels.",
+        "text": "$1\\text{ bit}$"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "The number of bits per level is calculated as $\\log_2 L$; for $L = 4$, $\\log_2 4 = 2\\text{ bits}$.",
+        "text": "$2\\text{ bits}$"
+      }
+    ],
+    "hint": "Use the formula $\\text{Bits} = \\log_2 L$ to find the bits per level.",
+    "question": "A digital signal encodes information using $L = 4$ distinct voltage levels. How many bits are transmitted per signal level?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "$2$ bits would only accommodate $2^2 = 4$ signal levels.",
+        "text": "$2$ bits"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "$4$ bits would provide $2^4 = 16$ distinct signal levels.",
+        "text": "$4$ bits"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "The number of bits per level is given by $\\log_2 L$. For $L=8$ levels, $\\log_2 8 = 3$ bits per level.",
+        "text": "$3$ bits"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "$8$ is the number of signal levels ($L$), not the required bits per level.",
+        "text": "$8$ bits"
+      }
+    ],
+    "hint": "Apply the logarithmic formula relating the number of signal levels $L$ to bits per level.",
+    "question": "A digital signal is designed to use $8$ distinct voltage levels to encode data. How many bits are required to represent each signal level?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This erroneously divides the element rate by 2 rather than multiplying by bits per level.",
+        "text": "500 bps"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This multiplies elements per second by $L$ directly instead of using $\\log_2 L$ bits per level.",
+        "text": "4000 bps"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This assumes each signal level carries only 1 bit ($L = 2$ binary level).",
+        "text": "1000 bps"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "With $L = 4$ levels, each level represents $\\log_2 4 = 2$ bits. Transmitting 1000 elements per second yields $1000 \\times 2 = 2000\\text{ bps}$.",
+        "text": "2000 bps"
+      }
+    ],
+    "hint": "Calculate bits per level first using $\\log_2 L$, then multiply by the signal element rate.",
+    "question": "A digital signal transmits 1000 signal elements per second. If each signal element carries 4 levels ($L = 4$), what is the overall bit rate?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Crosstalk is electromagnetic interference caused by one wire radiating signals into an adjacent wire.",
+        "text": "Crosstalk"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Attenuation refers specifically to the energy loss experienced by a signal propagating through a physical channel.",
+        "text": "Attenuation"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Distortion means the signal alters its shape or waveform due to differing propagation speeds of component frequencies.",
+        "text": "Distortion"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Impulse noise consists of brief, high-energy spikes from external sources like power lines or lightning.",
+        "text": "Impulse noise"
+      }
+    ],
+    "hint": "Recall the term for energy degradation that necessitates signal amplification.",
+    "question": "What type of transmission impairment is characterized by a loss of signal energy as it travels through a medium, often requiring amplifiers for compensation?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Encryptors secure data at higher software layers and have no effect on physical signal energy levels.",
+        "text": "Encryptor"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Phase shifters adjust signal timing/phase rather than compensating for lost energy amplitude.",
+        "text": "Phase Shifter"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "An attenuator intentionally reduces signal strength, which would exacerbate energy loss.",
+        "text": "Attenuator"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Attenuation represents energy loss over distance; amplifiers are inserted along transmission lines to increase signal intensity and restore lost energy.",
+        "text": "Amplifier"
+      }
+    ],
+    "hint": "Recall the component designed to counteract attenuation by increasing signal intensity.",
+    "question": "As a signal propagates over long distances through a copper wire, it continuously loses energy. Which device is used to boost the signal strength and compensate for this loss?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "Distortion occurs in composite signals when different frequency components experience unequal delays and phase shifts during propagation, altering the composite signal's shape.",
+        "text": "Distortion"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Attenuation refers to signal energy loss over distance, reducing amplitude without changing wave shape due to frequency delays.",
+        "text": "Attenuation"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Thermal noise is generated by random electron motion in conductors, adding an extra random signal rather than delaying existing frequency components.",
+        "text": "Thermal Noise"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Crosstalk is electromagnetic interference caused by signal coupling between adjacent wires.",
+        "text": "Crosstalk"
+      }
+    ],
+    "hint": "Focus on impairment mechanisms that alter signal shape in composite signals made of multiple frequencies.",
+    "question": "When a composite analog signal travels through a physical medium, its shape is altered because different frequency components propagate at different speeds and arrive with varying delays. Which transmission impairment does this describe?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "Crosstalk is defined as the electromagnetic interference caused when one wire acts as a transmitting antenna and affects an adjacent wire.",
+        "text": "Crosstalk"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Impulse noise consists of momentary high-energy spikes caused by external events like power line surges or lightning.",
+        "text": "Impulse Noise"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Thermal noise stems from the random thermal movement of electrons within a single conductor.",
+        "text": "Thermal Noise"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Induced noise comes from external devices like motors or appliances acting as transmitting antennas.",
+        "text": "Induced Noise"
+      }
+    ],
+    "hint": "Identify the specific noise category describing unwanted wire-to-wire signal coupling within cabling.",
+    "question": "Inside a network cable bundle, signal energy from one wire leaks into an adjacent wire because the first wire acts as a sending antenna and the second acts as a receiving antenna. Which type of noise is this?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "Crosstalk arises from inductive/capacitive coupling between parallel wires, while impulse noise stems from sudden, unpredictable external energy spikes.",
+        "text": "Crosstalk is the effect of one adjacent wire inducing signals on another, whereas impulse noise is a spike from external power lines or lightning."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Both crosstalk and impulse noise are unwanted impairments that degrade signal quality.",
+        "text": "Crosstalk increases signal power, whereas impulse noise decreases attenuation."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Neither crosstalk nor impulse noise is intentionally created by network hardware like amplifiers or attenuators.",
+        "text": "Crosstalk is caused by amplifiers, while impulse noise is caused by attenuators."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "Crosstalk primarily affects bounded wire pairs (like twisted pair cabling), and impulse noise affects electrical conductors.",
+        "text": "Crosstalk occurs only in wireless media, while impulse noise occurs only in optical fibers."
+      }
+    ],
+    "hint": "Think about 'neighboring wire interference' versus 'sudden external electrical sparks'.",
+    "question": "What distinguishes crosstalk noise from impulse noise?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This calculation computes $\\log_{10}(1000) = 3$ but omits the multiplier factor of 10 in the $SNR_{dB}$ formula.",
+        "text": "$3\\text{ dB}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This result occurs if $\\log_{10}(10)$ is calculated instead of evaluating $\\log_{10}(1000)$.",
+        "text": "$10\\text{ dB}$"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "First, calculate $SNR = \\frac{1000}{1} = 1000$. Then, apply $SNR_{dB} = 10 \\log_{10}(1000) = 10 \\times 3 = 30\\text{ dB}$.",
+        "text": "$30\\text{ dB}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This value represents the raw linear $SNR$ ratio without taking the base-10 logarithm and multiplying by 10.",
+        "text": "$1000\\text{ dB}$"
+      }
+    ],
+    "hint": "First calculate $SNR = \\frac{\\text{average signal power}}{\\text{average noise power}}$ and then apply $SNR_{dB} = 10 \\log_{10}(SNR)$.",
+    "question": "A communication channel has an average signal power of $1000\\text{ W}$ and an average noise power of $1\\text{ W}$. What is the Signal-to-Noise Ratio expressed in decibels ($SNR_{dB}$)?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "First, align units: $10\\text{ mW} = 10,000\\text{ }\\mu\\text{W}$. $\\text{SNR} = 10,000 / 10 = 1,000$. Then, $\\text{SNR}_{\\text{dB}} = 10 \\log_{10}(1000) = 10 \\times 3 = 30\\text{ dB}$.",
+        "text": "$30\\text{ dB}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "$1000$ is the linear $\\text{SNR}$ value, not the logarithmic decibel value ($\\text{SNR}_{\\text{dB}}$).",
+        "text": "$1000\\text{ dB}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "$10\\text{ dB}$ corresponds to an $\\text{SNR}$ ratio of $10$, which results from incorrect unit conversion.",
+        "text": "$10\\text{ dB}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "$40\\text{ dB}$ would correspond to an $\\text{SNR}$ ratio of $10,000$ (e.g., $10\\text{ mW}$ signal to $1\\text{ }\\mu\\text{W}$ noise).",
+        "text": "$40\\text{ dB}$"
+      }
+    ],
+    "hint": "Convert signal power to microwatts first to calculate the ratio, then take $10 \\log_{10}$ of that ratio.",
+    "question": "The signal power on a transmission line is measured at $10\\text{ mW}$ and the noise power is measured at $10\\text{ }\\mu\\text{W}$. What is the signal-to-noise ratio in decibels ($\\text{SNR}_{\\text{dB}}$)?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This gives the linear ratio $\\text{SNR}$ value directly without taking the base-10 logarithm.",
+        "text": "$10,000\\text{ dB}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This uses an incorrect multiplier, evaluating $25 \\times 4$ or misapplying the decibel formula.",
+        "text": "$100\\text{ dB}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This miscalculates $\\log_{10}(10,000)$ as $1$ instead of $4$.",
+        "text": "$10\\text{ dB}$"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "The linear ratio is $\\text{SNR} = \\frac{10,000\\text{ }\\mu\\text{W}}{1\\text{ }\\mu\\text{W}} = 10,000 = 10^4$. Converting to decibels gives $\\text{SNR}_{\\text{dB}} = 10 \\log_{10}(10^4) = 10 \\times 4 = 40\\text{ dB}$.",
+        "text": "$40\\text{ dB}$"
+      }
+    ],
+    "hint": "First calculate $\\text{SNR} = \\frac{\\text{Signal Power}}{\\text{Noise Power}}$, then evaluate $\\text{SNR}_{\\text{dB}} = 10 \\log_{10}(\\text{SNR})$.",
+    "question": "The power of a signal is $10\\text{ mW}$ ($10,000\\text{ }\\mu\\text{W}$) and the power of the noise is $1\\text{ }\\mu\\text{W}$. What is the value of $\\text{SNR}_{\\text{dB}}$?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "Dividing signal power by zero noise power yields an infinite linear ratio ($\\frac{\\text{Power}}{0} = \\infty$), and $10 \\log_{10}(\\infty) = \\infty$.",
+        "text": "$\\text{SNR} = \\infty$ and $\\text{SNR}_{\\text{dB}} = \\infty$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "An $\\text{SNR}$ of $0$ implies zero signal power or overwhelming noise, which represents a completely degraded channel.",
+        "text": "$\\text{SNR} = 0$ and $\\text{SNR}_{\\text{dB}} = 0$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "An $\\text{SNR}$ of $1$ means signal power equals noise power ($10 \\log_{10}(1) = 0\\text{ dB}$), not a noiseless channel.",
+        "text": "$\\text{SNR} = 1$ and $\\text{SNR}_{\\text{dB}} = 10\\text{ dB}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "These are finite values representing a channel with non-zero noise.",
+        "text": "$\\text{SNR} = 100$ and $\\text{SNR}_{\\text{dB}} = 20\\text{ dB}$"
+      }
+    ],
+    "hint": "Consider the result of dividing signal power by zero noise power.",
+    "question": "What are the theoretical values of linear $\\text{SNR}$ and decibel $\\text{SNR}_{\\text{dB}}$ for an ideal, completely noiseless transmission channel?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "Nyquist formula states $\\text{BitRate} = 2 \\times B \\times \\log_2 L$. Substituting $B = 3000$ and $L = 4$ yields $2 \\times 3000 \\times 2 = 12,000\\text{ bps}$.",
+        "text": "$12,000\\text{ bps}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This calculation incorrectly multiplies by $L = 4$ directly instead of using $\\log_2 4 = 2$.",
+        "text": "$24,000\\text{ bps}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This equals the bandwidth value $B$ without multiplying by $2 \\log_2 L$.",
+        "text": "$3000\\text{ bps}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This result corresponds to binary signaling ($L = 2$) rather than 4 levels.",
+        "text": "$6000\\text{ bps}$"
+      }
+    ],
+    "hint": "Apply $\\text{BitRate} = 2 \\times B \\times \\log_2 L$.",
+    "question": "Using Nyquist's Bit Rate formula for a noiseless channel, what is the maximum theoretical bit rate achievable over a channel with a bandwidth of $3000\\text{ Hz}$ transmitting a signal with $L = 4$ levels?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This calculation error stems from using $\\log_2 8$ instead of $\\log_2 4$.",
+        "text": "$24,000\\text{ bps}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This calculation assumes $L=2$ signal levels instead of $4$ levels.",
+        "text": "$8,000\\text{ bps}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This incorrectly multiplies by $L=4$ directly instead of using $\\log_2(4) = 2$.",
+        "text": "$32,000\\text{ bps}$"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Nyquist bit rate $= 2 \\times B \\times \\log_2 L$. Substituting values: $2 \\times 4000 \\times \\log_2(4) = 8000 \\times 2 = 16,000\\text{ bps}$.",
+        "text": "$16,000\\text{ bps}$"
+      }
+    ],
+    "hint": "Apply $\\text{Bit Rate} = 2 \\times B \\times \\log_2 L$, where $B$ is bandwidth and $L$ is signal levels.",
+    "question": "Using the Nyquist formula for a noiseless channel, what is the maximum achievable bit rate for a channel with a bandwidth of $4000\\text{ Hz}$ transmitting a signal with $4$ signal levels?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "$16$ levels would yield a maximum bit rate of $80\\text{ kbps}$, falling short of the required $100\\text{ kbps}$.",
+        "text": "$16$ levels"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "$5$ is the value of $\\log_2 L$, not the total number of signal levels ($L = 2^5$).",
+        "text": "$5$ levels"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Using $\\text{Bit Rate} = 2 \\times B \\times \\log_2 L$: $100,000 = 2 \\times 10,000 \\times \\log_2 L \\implies 5 = \\log_2 L \\implies L = 2^5 = 32$ levels.",
+        "text": "$32$ levels"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "$64$ levels would yield $120\\text{ kbps}$, which exceeds the minimum required levels.",
+        "text": "$64$ levels"
+      }
+    ],
+    "hint": "Solve for $\\log_2 L$ in the Nyquist equation, then compute $2$ raised to that exponent.",
+    "question": "An engineer wants to transmit data at a rate of $100\\text{ kbps}$ over a noiseless channel with a bandwidth of $10\\text{ kHz}$. According to the Nyquist theorem, how many signal levels ($L$) are required?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This level count yields $280\\text{ kbps}$ because $2^7 = 128$, exceeding the required $240\\text{ kbps}$ limit.",
+        "text": "$128$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This is the value of $\\log_2 L$, not the actual number of signal levels $L$.",
+        "text": "$6$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This level count provides only $200\\text{ kbps}$ because $2^5 = 32$, falling short of the required rate.",
+        "text": "$32$"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "From $240,000 = 2 \\times 20,000 \\times \\log_2 L$, we get $\\log_2 L = 6$, which yields $L = 2^6 = 64$ signal levels.",
+        "text": "$64$"
+      }
+    ],
+    "hint": "Rearrange Nyquist's formula to solve for $\\log_2 L$, then compute $2^{(\\log_2 L)}$.",
+    "question": "An engineer needs to achieve a data rate of $240\\text{ kbps}$ over a noiseless channel with a bandwidth of $20\\text{ kHz}$. How many signal levels ($L$) are required?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": true,
+        "rationale": "Solving Nyquist formula: $265,000 = 2 \\times 20,000 \\times \\log_2 L \\implies \\log_2 L = 6.625 \\implies L = 2^{6.625} \\approx 98.7$. Rounding up to the next power of 2 gives $2^7 = 128$ levels ($280\\text{ kbps}$ capacity).",
+        "text": "128 levels ($2^7$)"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "99 is not a power of 2, which is required for binary-coded digital signal levels.",
+        "text": "99 levels"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "64 levels yields only $2 \\times 20,000 \\times 6 = 240\\text{ kbps}$, falling short of the required $265\\text{ kbps}$ target.",
+        "text": "64 levels ($2^6$)"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "While 256 levels exceed the bit rate, $2^7 = 128$ levels is the minimum power of two that satisfies the rate.",
+        "text": "256 levels ($2^8$)"
+      }
+    ],
+    "hint": "Rearrange $\\text{BitRate} = 2 \\times B \\times \\log_2 L$ to solve for $L$, then select the next power of 2 up.",
+    "question": "A system developer wants to send $265\\text{ kbps}$ over a noiseless channel with a bandwidth of $20\\text{ kHz}$. According to the Nyquist formula, what minimum integer power of 2 signal levels ($L$) must be selected to achieve or exceed this bit rate?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "The Nyquist formula assumes a noiseless channel ($\\text{SNR}=\\infty$); real noisy channels are strictly bound by Shannon's limit.",
+        "text": "The capacity can still be calculated using the Nyquist formula for signal levels."
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Shannon Capacity $= B \\log_2(1 + \\text{SNR})$. If $\\text{SNR}=0$, then $C = B \\log_2(1) = B \\times 0 = 0\\text{ bps}$.",
+        "text": "The capacity becomes zero, meaning no data can be received regardless of bandwidth."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "An $\\text{SNR}$ of zero indicates noise power completely dominates the signal power, not a noiseless channel.",
+        "text": "The capacity approaches infinity because noise is completely eliminated."
+      },
+      {
+        "isCorrect": false,
+        "rationale": "For $C=B$, $\\log_2(1+\\text{SNR})$ would need to equal $1$, which requires $\\text{SNR}=1$, not zero.",
+        "text": "The capacity equals the channel bandwidth ($B$)."
+      }
+    ],
+    "hint": "Evaluate $\\log_2(1 + 0)$ within Shannon's capacity formula.",
+    "question": "According to the Shannon capacity formula, what happens to the theoretical channel capacity if the Signal-to-Noise Ratio ($\\text{SNR}$) approaches zero?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This calculation incorrectly multiplies bandwidth $B$ directly by SNR instead of taking $\\log_2(1 + \\text{SNR})$.",
+        "text": "$63\\text{ Mbps}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This assumes $\\log_2(1 + \\text{SNR}) = 1$, ignoring the actual SNR noise level.",
+        "text": "$1\\text{ Mbps}$"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Shannon capacity formula is $\\text{Capacity} = B \\times \\log_2(1 + \\text{SNR})$. Substituting $B = 10^6$ and $\\text{SNR} = 63$ yields $10^6 \\times \\log_2(1 + 63) = 10^6 \\times \\log_2(64) = 6 \\times 10^6\\text{ bps} = 6\\text{ Mbps}$.",
+        "text": "$6\\text{ Mbps}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This erroneously applies Nyquist multiplier factor 2 to Shannon's formula.",
+        "text": "$12\\text{ Mbps}$"
+      }
+    ],
+    "hint": "Use Shannon's formula $\\text{Capacity} = B \\times \\log_2(1 + \\text{SNR})$ and evaluate $\\log_2(64)$.",
+    "question": "According to Shannon's Capacity formula, what is the maximum data rate limit for a noisy channel with a bandwidth of $1\\text{ MHz}$ ($10^6\\text{ Hz}$) and a Signal-to-Noise Ratio (SNR) of 63?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "This results from applying the Nyquist formula assuming $2$ signal levels on a noiseless channel.",
+        "text": "$6,000\\text{ bps}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This incorrect value multiplies the bandwidth directly by the linear $\\text{SNR}$ rather than taking $\\log_2(1+\\text{SNR})$.",
+        "text": "$9,486,000\\text{ bps}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This results from applying the Nyquist formula with $4$ signal levels.",
+        "text": "$12,000\\text{ bps}$"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Using Shannon's formula $C = B \\log_2(1 + \\text{SNR})$: $C = 3000 \\times \\log_2(3163) \\approx 3000 \\times 11.62 = 34,860\\text{ bps}$.",
+        "text": "$34,860\\text{ bps}$"
+      }
+    ],
+    "hint": "Substitute $B=3000$ and $\\text{SNR}=3162$ into $C = B \\log_2(1 + \\text{SNR})$.",
+    "question": "A noisy telephone line has a bandwidth of $3000\\text{ Hz}$ and an $\\text{SNR}$ of $3162$. What is the theoretical maximum channel capacity?",
+    "type": "multiple_choice"
+  },
+  {
+    "answerOptions": [
+      {
+        "isCorrect": false,
+        "rationale": "Infinite capacity is theoretically impossible for finite bandwidth and finite non-zero noise levels.",
+        "text": "Infinite capacity"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This calculation evaluates $2 \\times 3000 \\times \\log_2(2)$ using Nyquist formula with two levels.",
+        "text": "$6\\text{ kbps}$"
+      },
+      {
+        "isCorrect": true,
+        "rationale": "Converting $SNR_{\\text{dB}} = 36\\text{ dB}$ gives $\\text{SNR} = 10^{3.6} \\approx 3981$. Then $\\text{Capacity} = 3000 \\times \\log_2(1 + 3981) = 3000 \\times \\log_2(3982) \\approx 3000 \\times 11.959 \\approx 35.86\\text{ kbps}$.",
+        "text": "Approximately $35.86\\text{ kbps}$"
+      },
+      {
+        "isCorrect": false,
+        "rationale": "This result comes from incorrectly multiplying bandwidth directly by $SNR_{\\text{dB}}$ value ($3000 \\times 36$).",
+        "text": "$108\\text{ kbps}$"
+      }
+    ],
+    "hint": "Convert $SNR_{\\text{dB}}$ to linear SNR using $10^{(36/10)}$, then substitute into $\\text{Capacity} = B \\times \\log_2(1 + \\text{SNR})$.",
+    "question": "A telephone line has a bandwidth of $3000\\text{ Hz}$ and an $SNR_{\\text{dB}}$ of $36\\text{ dB}$. What is its theoretical maximum channel capacity?",
+    "type": "multiple_choice"
+  }
+]

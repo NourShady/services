@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Computer Networks",
+    "file": "./banks/networks.json"
+  },
+  {
+    "name": "Software Engineering ",
+    "file": "./banks/software_engineering.json"
+  }
+]

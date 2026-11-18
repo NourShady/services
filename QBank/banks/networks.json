@@ -1,5 +1,545 @@
 [
   {
+    "question": "Before data can be transmitted, they must be transformed to",
+    "answerOptions": [
+      {
+        "text": "periodic signals.",
+        "isCorrect": false,
+        "rationale": "Data can be transmitted using either periodic or aperiodic signals depending on whether it is analog or digital."
+      },
+      {
+        "text": "electromagnetic signals.",
+        "isCorrect": true,
+        "rationale": "Information must be converted into electromagnetic signals before it can travel across a transmission medium."
+      },
+      {
+        "text": "aperiodic signals.",
+        "isCorrect": false,
+        "rationale": "While digital data is often represented as aperiodic signals, the fundamental requirement for physical transmission is conversion to electromagnetic signals."
+      },
+      {
+        "text": "low-frequency sine waves.",
+        "isCorrect": false,
+        "rationale": "Signals are not restricted to low-frequency sine waves; composite and high-frequency signals are widely used."
+      }
+    ],
+    "hint": "Think about the physical form energy takes to travel through wires or air.",
+    "type": "multiple_choice"
+  },
+  {
+    "question": "In a time-domain plot, the horizontal axis is a measure of",
+    "answerOptions": [
+      {
+        "text": "signal amplitude.",
+        "isCorrect": false,
+        "rationale": "Amplitude is represented on the vertical (y) axis in a time-domain plot."
+      },
+      {
+        "text": "frequency.",
+        "isCorrect": false,
+        "rationale": "Frequency is the horizontal axis in a frequency-domain plot, not a time-domain plot."
+      },
+      {
+        "text": "phase.",
+        "isCorrect": false,
+        "rationale": "Phase indicates the relative position of the waveform in time and is not the horizontal axis."
+      },
+      {
+        "text": "time.",
+        "isCorrect": true,
+        "rationale": "A time-domain plot shows changes in signal amplitude (vertical axis) with respect to time (horizontal axis)."
+      }
+    ],
+    "hint": "Look at the name of the plot itself to identify the independent variable on the x-axis.",
+    "type": "multiple_choice"
+  },
+  {
+    "question": "As frequency increases, the period",
+    "answerOptions": [
+      {
+        "text": "decreases.",
+        "isCorrect": true,
+        "rationale": "Frequency ($f$) and period ($T$) are inversely proportional ($T = \\frac{1}{f}$), so increasing frequency decreases the period."
+      },
+      {
+        "text": "increases.",
+        "isCorrect": false,
+        "rationale": "Period and frequency move in opposite directions because $T = \\frac{1}{f}$."
+      },
+      {
+        "text": "remains the same.",
+        "isCorrect": false,
+        "rationale": "A change in frequency directly alters the duration of a single cycle."
+      },
+      {
+        "text": "doubles.",
+        "isCorrect": false,
+        "rationale": "If frequency doubles, the period is halved rather than doubled."
+      }
+    ],
+    "hint": "Recall the inverse relationship $T = \\frac{1}{f}$.",
+    "type": "multiple_choice"
+  },
+  {
+    "question": "Data can be",
+    "answerOptions": [
+      {
+        "text": "analog.",
+        "isCorrect": false,
+        "rationale": "Data can be analog, but it can also take discrete digital values."
+      },
+      {
+        "text": "digital.",
+        "isCorrect": false,
+        "rationale": "Data can be digital, but it can also be continuous analog information."
+      },
+      {
+        "text": "(A) or (B).",
+        "isCorrect": true,
+        "rationale": "Data can exist in either continuous (analog) or discrete (digital) forms."
+      },
+      {
+        "text": "none of these.",
+        "isCorrect": false,
+        "rationale": "Both analog and digital are valid classifications of data."
+      }
+    ],
+    "hint": "Consider whether information is always discrete or if continuous measurements like sound also count as data.",
+    "type": "multiple_choice"
+  },
+  {
+    "question": "Signals can be",
+    "answerOptions": [
+      {
+        "text": "analog.",
+        "isCorrect": false,
+        "rationale": "Signals are not exclusively analog; they can also be digital."
+      },
+      {
+        "text": "digital.",
+        "isCorrect": false,
+        "rationale": "Signals are not exclusively digital; they can also be analog."
+      },
+      {
+        "text": "(A) or (B).",
+        "isCorrect": true,
+        "rationale": "Like data, electromagnetic signals can be either continuous (analog) or discrete (digital)."
+      },
+      {
+        "text": "none of these.",
+        "isCorrect": false,
+        "rationale": "Both analog and digital are standard forms of signals."
+      }
+    ],
+    "hint": "Just like data, signals are categorized by whether their values are continuous or discrete.",
+    "type": "multiple_choice"
+  },
+  {
+    "question": "________ is the technology that connects the machines and people within a site in a small area.",
+    "answerOptions": [
+      {
+        "text": "LAN.",
+        "isCorrect": true,
+        "rationale": "A Local Area Network (LAN) interconnects devices within a limited geographic area such as a home, office, or campus building."
+      },
+      {
+        "text": "MAN.",
+        "isCorrect": false,
+        "rationale": "A Metropolitan Area Network (MAN) spans a larger area such as a city."
+      },
+      {
+        "text": "WAN.",
+        "isCorrect": false,
+        "rationale": "A Wide Area Network (WAN) spans countries or continents."
+      },
+      {
+        "text": "none of these.",
+        "isCorrect": false,
+        "rationale": "LAN is the standard term for a site-level network."
+      }
+    ],
+    "hint": "Focus on the word 'Local' for a single building or small site.",
+    "type": "multiple_choice"
+  },
+  {
+    "question": "________ is a network that covers geographic areas that are larger, such as cities.",
+    "answerOptions": [
+      {
+        "text": "LAN.",
+        "isCorrect": false,
+        "rationale": "A LAN is restricted to a small site like a single office or building."
+      },
+      {
+        "text": "MAN.",
+        "isCorrect": true,
+        "rationale": "A Metropolitan Area Network (MAN) is designed to cover a city or large metropolitan area."
+      },
+      {
+        "text": "WAN.",
+        "isCorrect": false,
+        "rationale": "A WAN covers much broader geographic regions like countries or the globe."
+      },
+      {
+        "text": "none of these.",
+        "isCorrect": false,
+        "rationale": "MAN specifically refers to city-scale networks."
+      }
+    ],
+    "hint": "Look for the network type associated with a 'Metropolitan' area.",
+    "type": "multiple_choice"
+  },
+  {
+    "question": "Transmission media are usually categorized as",
+    "answerOptions": [
+      {
+        "text": "Fixed or unfixed.",
+        "isCorrect": false,
+        "rationale": "This is not the standard networking classification for transmission media."
+      },
+      {
+        "text": "determinate or indeterminate.",
+        "isCorrect": false,
+        "rationale": "These terms do not describe physical transmission channels."
+      },
+      {
+        "text": "guided or unguided.",
+        "isCorrect": true,
+        "rationale": "Transmission media are divided into guided (wired/physical conduits) and unguided (wireless/air) categories."
+      },
+      {
+        "text": "metallic or nonmetallic.",
+        "isCorrect": false,
+        "rationale": "Optical fiber is nonmetallic and wireless uses air, so this distinction is incomplete."
+      }
+    ],
+    "hint": "Think about the distinction between wired cables and wireless airwaves.",
+    "type": "multiple_choice"
+  },
+  {
+    "question": "Which of the following is not a guided medium?",
+    "answerOptions": [
+      {
+        "text": "Twisted-pair.",
+        "isCorrect": false,
+        "rationale": "Twisted-pair copper cable is a physical, guided medium."
+      },
+      {
+        "text": "Coaxial cable.",
+        "isCorrect": false,
+        "rationale": "Coaxial cable confines signals within a physical conductor, making it guided."
+      },
+      {
+        "text": "Fiber-optic",
+        "isCorrect": false,
+        "rationale": "Fiber-optic cable guides light pulses through glass or plastic strands."
+      },
+      {
+        "text": "Atmosphere.",
+        "isCorrect": true,
+        "rationale": "The atmosphere (wireless/free space) propagates electromagnetic waves without a physical conduit, making it unguided."
+      }
+    ],
+    "hint": "Identify the option that does not use a physical cable to contain the signal.",
+    "type": "multiple_choice"
+  },
+  {
+    "question": "Computer Network is",
+    "answerOptions": [
+      {
+        "text": "Collection of hardware components and computers.",
+        "isCorrect": false,
+        "rationale": "While true, this alone is incomplete without communication channels and resource sharing."
+      },
+      {
+        "text": "Interconnected by communication channels",
+        "isCorrect": false,
+        "rationale": "Interconnection is only one part of the full definition."
+      },
+      {
+        "text": "Sharing of resources and information",
+        "isCorrect": false,
+        "rationale": "Resource sharing is the purpose, which relies on interconnected hardware."
+      },
+      {
+        "text": "All of these.",
+        "isCorrect": true,
+        "rationale": "A computer network consists of hardware/computers interconnected via communication channels to share resources and information."
+      }
+    ],
+    "hint": "Check if all three statements describe essential aspects of a network.",
+    "type": "multiple_choice"
+  },
+  {
+    "question": "How many layers does OSI Reference Model has?",
+    "answerOptions": [
+      {
+        "text": "4",
+        "isCorrect": false,
+        "rationale": "4 layers corresponds to the classic TCP/IP model, not the OSI model."
+      },
+      {
+        "text": "5",
+        "isCorrect": false,
+        "rationale": "5 layers corresponds to the hybrid/updated TCP/IP model."
+      },
+      {
+        "text": "6",
+        "isCorrect": false,
+        "rationale": "The OSI model has more than 6 layers."
+      },
+      {
+        "text": "7",
+        "isCorrect": true,
+        "rationale": "The Open Systems Interconnection (OSI) model defines 7 distinct layers from Physical to Application."
+      }
+    ],
+    "hint": "Count from Physical up through Data Link, Network, Transport, Session, Presentation, to Application.",
+    "type": "multiple_choice"
+  },
+  {
+    "question": "What is the meaning of Bandwidth in Network?",
+    "answerOptions": [
+      {
+        "text": "Transmission capacity of a communication channels",
+        "isCorrect": true,
+        "rationale": "In networking, bandwidth measures the maximum data transfer capacity of a communication channel over a given time."
+      },
+      {
+        "text": "Connected Computers in the Network",
+        "isCorrect": false,
+        "rationale": "The count of connected devices refers to network size or nodes, not bandwidth."
+      },
+      {
+        "text": "Class of IP used in Network",
+        "isCorrect": false,
+        "rationale": "IP addressing classes relate to logical addressing, not channel capacity."
+      },
+      {
+        "text": "None of these",
+        "isCorrect": false,
+        "rationale": "Transmission capacity is the standard networking definition of bandwidth."
+      }
+    ],
+    "hint": "Think about how much data a link can carry per second.",
+    "type": "multiple_choice"
+  },
+  {
+    "question": "Each IP packet must contain",
+    "answerOptions": [
+      {
+        "text": "Only Source address",
+        "isCorrect": false,
+        "rationale": "Without a destination address, routers cannot forward the packet to its target."
+      },
+      {
+        "text": "Only Destination address",
+        "isCorrect": false,
+        "rationale": "Without a source address, the receiver cannot know where the packet originated or send a reply."
+      },
+      {
+        "text": "Source and Destination address",
+        "isCorrect": true,
+        "rationale": "Every IP header requires both the sender's IP address and the intended receiver's IP address for routing and replies."
+      },
+      {
+        "text": "Source or Destination address",
+        "isCorrect": false,
+        "rationale": "Both addresses are mandatory in standard IPv4 and IPv6 packet headers."
+      }
+    ],
+    "hint": "To deliver a letter and allow a reply, both sender and recipient details are needed.",
+    "type": "multiple_choice"
+  },
+  {
+    "question": "An unauthorized user is a network ________ issue",
+    "answerOptions": [
+      {
+        "text": "Performance",
+        "isCorrect": false,
+        "rationale": "Performance relates to metrics like transit time and response time."
+      },
+      {
+        "text": "Reliability",
+        "isCorrect": false,
+        "rationale": "Reliability concerns failure frequency and recovery time."
+      },
+      {
+        "text": "Security",
+        "isCorrect": true,
+        "rationale": "Protecting data and network resources from unauthorized access is the core goal of network security."
+      },
+      {
+        "text": "All of these",
+        "isCorrect": false,
+        "rationale": "Unauthorized access specifically falls under the security criteria of a network."
+      }
+    ],
+    "hint": "Consider which of the three main network criteria (performance, reliability, security) deals with access control.",
+    "type": "multiple_choice"
+  },
+  {
+    "question": "What does protocol defines?",
+    "answerOptions": [
+      {
+        "text": "what data is communicated.",
+        "isCorrect": false,
+        "rationale": "Syntax defines what data format is communicated, which is only one element of a protocol."
+      },
+      {
+        "text": "how data is communicated.",
+        "isCorrect": false,
+        "rationale": "Semantics and formatting define how data is interpreted, which is only part of a protocol."
+      },
+      {
+        "text": "when data is communicated.",
+        "isCorrect": false,
+        "rationale": "Timing defines when data is sent and at what speed, which is only one aspect."
+      },
+      {
+        "text": "All of these",
+        "isCorrect": true,
+        "rationale": "A communication protocol defines syntax (what), semantics (how), and timing (when) for data exchange."
+      }
+    ],
+    "hint": "Recall the three key elements of a protocol: syntax, semantics, and timing.",
+    "type": "multiple_choice"
+  },
+  {
+    "question": "The information to be communicated in a data communications system is the",
+    "answerOptions": [
+      {
+        "text": "Medium",
+        "isCorrect": false,
+        "rationale": "The medium is the physical path through which the signal travels."
+      },
+      {
+        "text": "Protocol",
+        "isCorrect": false,
+        "rationale": "The protocol is the set of rules governing communication."
+      },
+      {
+        "text": "Message",
+        "isCorrect": true,
+        "rationale": "The message is the actual data or information (text, numbers, audio, video) being transmitted."
+      },
+      {
+        "text": "Transmission",
+        "isCorrect": false,
+        "rationale": "Transmission is the process of sending the signal, not the information itself."
+      }
+    ],
+    "hint": "Look at the five basic components of data communication: message, sender, receiver, medium, and protocol.",
+    "type": "multiple_choice"
+  },
+  {
+    "question": "A television broadcast is an example of ________ transmission.",
+    "answerOptions": [
+      {
+        "text": "Simplex",
+        "isCorrect": true,
+        "rationale": "In simplex mode, communication is unidirectional; the TV station transmits and the television only receives."
+      },
+      {
+        "text": "Half-duplex",
+        "isCorrect": false,
+        "rationale": "Half-duplex allows two-way communication, one direction at a time (like walkie-talkies)."
+      },
+      {
+        "text": "Full-duplex",
+        "isCorrect": false,
+        "rationale": "Full-duplex allows simultaneous two-way communication (like a telephone call)."
+      },
+      {
+        "text": "Automatic",
+        "isCorrect": false,
+        "rationale": "Automatic is not one of the three data flow transmission modes."
+      }
+    ],
+    "hint": "Can your television send signals back to the broadcast tower?",
+    "type": "multiple_choice"
+  },
+  {
+    "question": "Frequency of failure and network recovery time after a failure are measures of the network",
+    "answerOptions": [
+      {
+        "text": "Performance",
+        "isCorrect": false,
+        "rationale": "Performance is measured by transit time, response time, throughput, and delay."
+      },
+      {
+        "text": "Reliability",
+        "isCorrect": true,
+        "rationale": "Network reliability is evaluated by how often failures occur, how long recovery takes, and robustness against catastrophes."
+      },
+      {
+        "text": "Security",
+        "isCorrect": false,
+        "rationale": "Security focuses on protecting data from unauthorized access and damage."
+      },
+      {
+        "text": "Feasibility",
+        "isCorrect": false,
+        "rationale": "Feasibility is not one of the three standard network evaluation criteria in Forouzan's model."
+      }
+    ],
+    "hint": "Think about how dependable a network is when hardware or links go down.",
+    "type": "multiple_choice"
+  },
+  {
+    "question": "A sine wave in the ________ domain can be represented by one single spike in the ________ domain.",
+    "answerOptions": [
+      {
+        "text": "time; frequency",
+        "isCorrect": true,
+        "rationale": "A continuous periodic sine wave in the time domain has a single constant frequency, appearing as one vertical spike in the frequency domain."
+      },
+      {
+        "text": "frequency; time",
+        "isCorrect": false,
+        "rationale": "The order is reversed; a single frequency component corresponds to a continuous wave in time."
+      },
+      {
+        "text": "time; phase",
+        "isCorrect": false,
+        "rationale": "Phase is plotted against frequency in a phase spectrum, not used here."
+      },
+      {
+        "text": "phase; time",
+        "isCorrect": false,
+        "rationale": "A sine wave is defined in the time domain and decomposed into spikes in the frequency domain."
+      }
+    ],
+    "hint": "A pure sine wave consists of only one frequency value.",
+    "type": "multiple_choice"
+  },
+  {
+    "question": "A periodic signal completes one cycle in $0.001\\text{ s}$. What is the frequency?",
+    "answerOptions": [
+      {
+        "text": "$1\\text{ Hz}$",
+        "isCorrect": false,
+        "rationale": "$1\\text{ Hz}$ corresponds to a period of $1\\text{ s}$."
+      },
+      {
+        "text": "$100\\text{ Hz}$",
+        "isCorrect": false,
+        "rationale": "$100\\text{ Hz}$ corresponds to a period of $0.01\\text{ s}$."
+      },
+      {
+        "text": "$1\\text{ KHz}$",
+        "isCorrect": true,
+        "rationale": "Using $f = \\frac{1}{T} = \\frac{1}{0.001\\text{ s}} = 1000\\text{ Hz} = 1\\text{ kHz}$."
+      },
+      {
+        "text": "$1\\text{ MHz}$",
+        "isCorrect": false,
+        "rationale": "$1\\text{ MHz}$ corresponds to a period of $10^{-6}\\text{ s}$ ($1\\text{ }\\mu\\text{s}$)."
+      }
+    ],
+    "hint": "Use the formula $f = \\frac{1}{T}$ where $T = 0.001\\text{ s} = 10^{-3}\\text{ s}$.",
+    "type": "multiple_choice"
+  },
+  {
     "answerOptions": [
       {
         "isCorrect": false,
